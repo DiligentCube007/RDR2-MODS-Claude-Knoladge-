@@ -1,0 +1,14 @@
+<EasyInstall>
+  <Name>Vestigia - Rain Sheets (Optional)</Name>
+  <Author>no12 / merge</Author>
+  <Version>1.0</Version>
+  <Metadata>Optional add-on for VESTIGIA: turns on the wind-blown rain sheet / gust effect in Thunderstorm and Hurricane. Must load AFTER Vestigia (below it in LML load order). Remove or disable this folder to turn sheets off.</Metadata>
+  <Resources>
+    <Resource>
+      <FileReplacement>
+        <GamePath>update:/common/data/levels/rdr3/weather.xml</GamePath>
+        <FilePath>weather.xml</FilePath>
+      </FileReplacement>
+    </Resource>
+  </Resources>
+</EasyInstall>
