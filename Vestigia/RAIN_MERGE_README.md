@@ -144,3 +144,17 @@ than the sky, so they read about the same everywhere. Three presets are in `vari
 |---|---|---|---|
 | `particleColorPercentage` | 0.20 → **0.30** | 0.20 → **0.30** | 0.70 → **0.75** |
 | `directionalAndAmbientMultiplier` | 0.6 → **0.5** | 1.0 → **0.8** | 1.0 → **0.85** |
+
+---
+
+# Update 5: the 2D "mist plane" is fixed (fog noise)
+The moving 2D mist plane that followed you in rainy weather came from Vestigia's **local-atmosphere fog noise**,
+not from the rain particles. Vestigia sets `local_atmosphere_voxel_noise_min/max` to **0 / 2** in almost every
+weather (vanilla is about 0.43 / 0.75). It also makes the vertical noise move faster, raises the localized fog
+wind from 1 to 5, and turns localized fog off. The very wide noise range squeezes the near-camera haze into a
+few dense, sharp-edged blobs. We found it by testing against the vanilla timecycles.
+
+**Installed:** these 11 settings now use each weather's own vanilla values in Drizzle, Rain, Shower (and its
+3 story variants), Sleet, Hail and Hurricane. The result is even, all-around rain haze. Everything else in
+Vestigia is unchanged. Options are in `variants/00 - COMPATIBLE OPTIONS (use these)/15 - fog noise (MIST PLANE FIX)`:
+previous, rainy weathers (installed), all weathers. There are also hand-edit instructions for Thunder and Thunderstorm.

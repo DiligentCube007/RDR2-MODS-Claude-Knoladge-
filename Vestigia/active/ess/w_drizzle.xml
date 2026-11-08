@@ -243,12 +243,12 @@
       <local_atmosphere_fog_density> 0.0015 0.0015 0.0015 0.0011 0.0011 0.0015 0.0015 0.0015 0.0015 0.0011 0.0011 0.0011 0.0015</local_atmosphere_fog_density>
       <local_atmosphere_fog_height> 50.0000 50.0000 50.0000 50.0000 5.0000 500.0000 500.0000 500.0000 500.0000 500.0000 50.0000 50.0000 50.0000</local_atmosphere_fog_height>
       <local_atmosphere_fog_falloff> 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000</local_atmosphere_fog_falloff>
-      <local_atmosphere_localized_fog_density_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0500 0.0500 0.0500 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_localized_fog_density_mult>
-      <local_atmosphere_localized_fog_density_mult_raymarch> 0.2096 0.2096 0.2096 0.2096 0.2996 0.2096 0.2096 0.2096 0.2096 0.2096 0.2096 0.2096 0.2096</local_atmosphere_localized_fog_density_mult_raymarch>
-      <local_atmosphere_localized_fog_noise_bounds_x> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.5000 0.5000 -1.0000 -1.0000 0.3997 0.3997 0.3997</local_atmosphere_localized_fog_noise_bounds_x>
-      <local_atmosphere_localized_fog_noise_bounds_y> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.0000 0.0000 0.5977 0.5977 0.5977</local_atmosphere_localized_fog_noise_bounds_y>
+      <local_atmosphere_localized_fog_density_mult> 0.2000 0.1498 0.1498 0.2000 0.1000 0.1498 0.2000 0.2000 0.2996 0.2500 0.1000 0.2000 0.1000</local_atmosphere_localized_fog_density_mult>
+      <local_atmosphere_localized_fog_density_mult_raymarch> 0.1000 0.1000 0.1000 0.1000 0.2996 0.1000 0.2996 0.1000 0.1498 0.1000 0.2996 0.1000 0.1000</local_atmosphere_localized_fog_density_mult_raymarch>
+      <local_atmosphere_localized_fog_noise_bounds_x> -1.0000 -1.0000 -1.0000 0.0000 -1.0000 -1.0000 0.3997 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000</local_atmosphere_localized_fog_noise_bounds_x>
+      <local_atmosphere_localized_fog_noise_bounds_y> 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.5977 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_localized_fog_noise_bounds_y>
       <local_atmosphere_localized_fog_wind_velocity> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_localized_fog_wind_velocity>
-      <local_atmosphere_localized_fog_height_offset> -10.0000 -10.0000 -10.0000 -10.0000 -10.0000 -10.0000 -10.0000 -10.0000 -10.0000 -10.0000 -10.0000 -10.0000 -10.0000</local_atmosphere_localized_fog_height_offset>
+      <local_atmosphere_localized_fog_height_offset> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_localized_fog_height_offset>
        <local_atmosphere_fog_volume_dust_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_dust_density_mult>
       <local_atmosphere_fog_volume_smoke_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_smoke_density_mult>
       <local_atmosphere_fog_volume_mist_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_mist_density_mult>
@@ -257,9 +257,9 @@
       <local_atmosphere_fog_volume_waterfall_density_mult> 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000</local_atmosphere_fog_volume_waterfall_density_mult>
       <local_atmosphere_rain_density_falloff> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_rain_density_falloff>
       <local_atmosphere_rain_threshold> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_rain_threshold>
-      <local_atmosphere_voxel_noise_min> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_voxel_noise_min>
-      <local_atmosphere_voxel_noise_max> 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000</local_atmosphere_voxel_noise_max>
-      <local_atmosphere_voxel_noise_scale_mult_z> 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000</local_atmosphere_voxel_noise_scale_mult_z>
+      <local_atmosphere_voxel_noise_min> 0.4446 0.4446 0.5000 0.5000 0.4290 0.5059 0.7139 0.5508 0.5479 0.5430 0.5000 0.5000 0.5000</local_atmosphere_voxel_noise_min>
+      <local_atmosphere_voxel_noise_max> 0.6509 0.6509 0.5977 0.6509 0.6309 0.6768 0.7466 0.7520 0.7642 0.6768 0.5977 0.6519 0.5977</local_atmosphere_voxel_noise_max>
+      <local_atmosphere_voxel_noise_scale_mult_z> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_voxel_noise_scale_mult_z>
       <local_atmosphere_voxel_distribution_blend> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_voxel_distribution_blend>
       <local_atmosphere_voxel_coverage_deferred_min> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_voxel_coverage_deferred_min>
       <fog_start> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</fog_start>
@@ -333,7 +333,7 @@
       <local_atmosphere_cloud_detail_wind_velocity_scale> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_detail_wind_velocity_scale>
       <local_atmosphere_cloud_detail_wind_vertical_speed> 0.0000 0.0000 0.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_detail_wind_vertical_speed>
       <local_atmosphere_voxel_wind_velocity_scale> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_voxel_wind_velocity_scale>
-      <local_atmosphere_voxel_detail_wind_vertical_speed> -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000</local_atmosphere_voxel_detail_wind_vertical_speed>
+      <local_atmosphere_voxel_detail_wind_vertical_speed> -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000</local_atmosphere_voxel_detail_wind_vertical_speed>
       <local_atmosphere_large_scale_wind_velocity_scale> 2.0000 2.0000 2.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_large_scale_wind_velocity_scale>
       <local_atmosphere_large_scale_wind_vertical_speed> -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000</local_atmosphere_large_scale_wind_vertical_speed>
       <local_atmosphere_cloud_wind_shear> 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 225.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000</local_atmosphere_cloud_wind_shear>

@@ -22,11 +22,7 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | 08 - rain particles (full set) | current* / Rain Particles Fix look + all fixes / original combine (no later tweaks) | 23 rain particle files | `active/ess` + `active/str` |
 | 09 - drizzle visibility | current* / more visible (same size and amount) | `drizzle_render_drop.xml` | `active/ess` |
 | 10 - heavy rain light glow | current* / less glow toward sun and lamps (Rain, Shower, Thunderstorm, Hurricane) | 4 `*_render_drop.xml` | `active/ess` + `active/str` |
-| 11 - rain spawn area (mist test) | current* / larger spawn area (TEST for the vertical mist plane) | 4 `*_emitter_drop.xml` | `active/ess` + `active/str` |
-| 12 - ground splash mist (test + fix) | current* / splashes OFF (test) / splashes subtle (fix) | 5 `*_render_ground.xml` | `active/ess` + `active/str` |
-| **13 - rain fog (mist plane fix)** | current* / rain fog switch off (vanilla) / + vanilla fog shapes | `weather.xml` | `active/ess` (+ Rain Sheets add-on folder if installed) |
-| **14 - rain coverage (MIST PLANE FIX)** | current* / full coverage (recommended) / reduced patchiness | 7 rain `w_*.xml` timecycles | `active/ess` |
-| **98 - TROUBLESHOOTING 2 - which timecycle setting (vs vanilla)** | 5 test sets that each put one group of rain timecycle settings back to vanilla | 7 rain `w_*.xml` | `active/ess` (put '0 - current' back after) |
+| **15 - fog noise (MIST PLANE FIX)** | previous / rainy weathers* / all weathers. THE fix for the moving 2D mist plane | rain/fog `w_*.xml` timecycles | `active/ess` |
 | **99 - TROUBLESHOOTING - find the mist plane** | test install.xml files that switch off one part of Vestigia at a time | `install.xml` | `lml/Vestigia/` (put the original back after) |
 
 \* = installed now.
