@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EasyInstall>
+  <Author>sauvy11</Author>
+  <Name>Realistic Weather - Grass Sway Test</Name>
+  <Resources>
+    <Resource>
+      <FileReplacement allowDuplicate="true">
+        <GamePath>common:/data/visualsettings.dat</GamePath>
+        <GamePath>update:/common/data/visualsettings.dat</GamePath>
+        <FilePath>visualsettings.dat</FilePath>
+      </FileReplacement>
+    </Resource>
+  </Resources>
+</EasyInstall>

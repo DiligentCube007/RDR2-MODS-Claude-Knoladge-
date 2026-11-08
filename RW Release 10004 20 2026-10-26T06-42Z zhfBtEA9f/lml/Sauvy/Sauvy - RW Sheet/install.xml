@@ -1,0 +1,23 @@
+<EasyInstall>
+  <Name>RW Thunder Sheet</Name>
+  <Author>sauvy11</Author>
+  <Version>1.0</Version>
+  <Link></Link>
+  <Metadata>Isolate the vanilla thunderstorm rain-sheet/gust effect.</Metadata>
+  <ResourceGroups>
+    <ResourceGroup name="Thunder Sheet" scriptName="rw_thunder_sheet_test">
+      <Description>Replaces only the vanilla thunderstorm sheet renderer.</Description>
+      <Resources>
+        <Resource>rw_thunder_sheet_test</Resource>
+      </Resources>
+    </ResourceGroup>
+  </ResourceGroups>
+  <Resources>
+    <Resource name="Thunder Sheet" scriptName="rw_thunder_sheet_test">
+      <FileReplacement>
+        <GamePath>common:/data/levels/rdr3/weather/thunder_render_sheet.xml</GamePath>
+        <FilePath>Impact/thunder_render_sheet.xml</FilePath>
+      </FileReplacement>
+    </Resource>
+  </Resources>
+</EasyInstall>
