@@ -25,6 +25,7 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | 11 - rain spawn area (mist test) | current* / larger spawn area (TEST for the vertical mist plane) | 4 `*_emitter_drop.xml` | `active/ess` + `active/str` |
 | 12 - ground splash mist (test + fix) | current* / splashes OFF (test) / splashes subtle (fix) | 5 `*_render_ground.xml` | `active/ess` + `active/str` |
 | **13 - rain fog (mist plane fix)** | current* / rain fog switch off (vanilla) / + vanilla fog shapes | `weather.xml` | `active/ess` (+ Rain Sheets add-on folder if installed) |
+| **14 - rain coverage (MIST PLANE FIX)** | current* / full coverage (recommended) / reduced patchiness | 7 rain `w_*.xml` timecycles | `active/ess` |
 | **99 - TROUBLESHOOTING - find the mist plane** | test install.xml files that switch off one part of Vestigia at a time | `install.xml` | `lml/Vestigia/` (put the original back after) |
 
 \* = installed now.
