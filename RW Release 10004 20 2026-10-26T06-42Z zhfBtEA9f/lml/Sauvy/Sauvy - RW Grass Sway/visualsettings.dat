@@ -38,14 +38,14 @@ rain.defaultlight.alpha	16.00
 #General weather configuration
 weather.CycleDuration 120
 
-weather.dryingSpeedAtMinTemp 0.1
-weather.dryingSpeedMinTemp 0.1
-weather.dryingSpeedAtMaxTemp 3.0
+weather.dryingSpeedAtMinTemp 0.4
+weather.dryingSpeedMinTemp 3.0
+weather.dryingSpeedAtMaxTemp 2.4
 weather.dryingSpeedMaxTemp 50.0
 
-weather.dryingSpeedAtMinHumidity 2.0
+weather.dryingSpeedAtMinHumidity 1.7
 weather.dryingSpeedMinHumidity 10.0
-weather.dryingSpeedAtMaxHumidity 0.5
+weather.dryingSpeedAtMaxHumidity 0.65
 weather.dryingSpeedMaxHumidity 50.0
 
 #Config for static values for skyhat				
@@ -57,7 +57,7 @@ sky.MoonIntensity 0.1
 sky.AmbientMieG 0.8
 sky.AltitudeRemapFactor 1.0
 sky.AtmosphereThickness 8.0
-sky.AerialPerspectiveFarClip 100000.0
+sky.AerialPerspectiveFarClip 50000.0
 #Config for night sky stars
 stars.constellations.size				1.0
 stars.constellations.intensity			0.01
@@ -74,7 +74,7 @@ stars.dense.color.red 		1.0
 stars.dense.color.green 	1.0
 stars.dense.color.blue 		1.0
 stars.dense.intensity 		1.2
-stars.dense.intensityGalaxy 1.2
+stars.dense.intensityGalaxy 1.7
 stars.dense.tiling 			4.0
 stars.dense.axisBlend 		4.0
 
@@ -82,7 +82,7 @@ stars.sparse.color.red 			1.0
 stars.sparse.color.green 		1.0
 stars.sparse.color.blue 		1.0
 stars.sparse.intensity 			24.0
-stars.sparse.intensityGalaxy 	2.0
+stars.sparse.intensityGalaxy 	4.0
 stars.sparse.tiling 			4.0
 stars.sparse.axisBlend 			0.5
 
@@ -722,7 +722,7 @@ imposter.trees.verticalsplit.heightscale 16.0
 #Config values for horse coat shine
 horse.coatShineDecrease 0.0
 
-ped.snowMelt.mintemp 0.0
+ped.snowMelt.mintemp -1.0
 ped.snowMelt.maxtemp 5.0
 ped.snowMelt.meltRate 0.015
 ped.snowMelt.evaporationRate 0.5
@@ -817,7 +817,7 @@ ped.dryRateMaxTemp 50.0
 ped.snowMeltMult		7.0
 ped.underlyingSnowMelt	0.5
 
-ped.dirtWashMult 1.0
+ped.dirtWashMult 0.5
 ped.snowWashMult 1.0
 
 #Config values for peds				
@@ -1466,20 +1466,20 @@ misc.fog.voxel_distance_exponent_close	5.0
 misc.fog.voxel_coverage_deferred_close	40.0
 misc.fog.voxel_coverage_close			40.0
 misc.fog.weather_map_resolution			512
-misc.fog.cirrus_scale					0.3
-misc.fog.cirrus_control_scale			0.3
+misc.fog.cirrus_scale					0.6
+misc.fog.cirrus_control_scale			0.6
 misc.fog.planar_reflection_temporal_blend 0.95
 misc.fog.terrain_shadow_bias			-0.006
 misc.fog.density_map_height_min			-60.0
 misc.fog.density_map_height_max			784.0
-misc.fog.fog_volume_wind_scale			0.2
-misc.fog.fog_volume_wind_bias			0.0
-misc.fog.fog_volume_wind_min			0.0
+misc.fog.fog_volume_wind_scale			0.9
+misc.fog.fog_volume_wind_bias			0.1
+misc.fog.fog_volume_wind_min			1.0
 misc.fog.fog_volume_wind_max			10.0
-misc.fog.fog_volume_inv_wind_scale		0.2
-misc.fog.fog_volume_inv_wind_bias		0.0
-misc.fog.fog_volume_inv_wind_min		0.0
-misc.fog.fog_volume_inv_wind_max		2.0
+misc.fog.fog_volume_inv_wind_scale		0.75
+misc.fog.fog_volume_inv_wind_bias		0.25
+misc.fog.fog_volume_inv_wind_min		1.0
+misc.fog.fog_volume_inv_wind_max		6.0
 misc.fog.enableheightfog	1.0
 misc.fog.clampdistg			120.0
 misc.fog.minimumg			0.5
@@ -1706,7 +1706,7 @@ TEMP.Adaptation.sun.exposure.tweak	-2.0
 
 
 # Cloud speeds
-cloud.speed.hats	3.0
+cloud.speed.hats	1.0
 
 # lod fade distances
 lod.fadedist.orphanhd	20.0
@@ -1887,8 +1887,8 @@ puddles.animspeed				60.
 puddles.ripples.minsize			0.003	
 puddles.ripples.maxsize			0.007
 puddles.ripples.speed			50
-puddles.ripples.minduration		16.0
-puddles.ripples.maxduration		20.0
+puddles.ripples.minduration		10.0
+puddles.ripples.maxduration		12.5
 puddles.ripples.dropfactor		0.8
 puddles.ripples.windstrength	0.03
 puddles.ripples.ripplestrength	0.7
@@ -1978,8 +1978,8 @@ vehicle.wheelmud.vertPushScale.snowCompact	0.015
 
 vehicle.weather.minDrySpeed		0.001
 vehicle.weather.maxDrySpeed		0.01
-vehicle.weather.minDryTemp		0
-vehicle.weather.maxDryTemp		45
+vehicle.weather.minDryTemp		5
+vehicle.weather.maxDryTemp		40
 vehicle.weather.minMeltSpeed	0.0
 vehicle.weather.maxMeltSpeed	0.01
 vehicle.weather.minMeltTemp		0.0
@@ -2852,10 +2852,10 @@ WeatherColorCorrection.Humidity.Min 0
 WeatherColorCorrection.Humidity.BaseMin 0.49
 WeatherColorCorrection.Humidity.BaseMax 0.51
 WeatherColorCorrection.Humidity.Max 1
-WeatherColorCorrection.Temperature.Min -45.0
-WeatherColorCorrection.Temperature.BaseMin 13.0
-WeatherColorCorrection.Temperature.BaseMax 15.0
-WeatherColorCorrection.Temperature.Max 45.0
+WeatherColorCorrection.Temperature.Min -35.0
+WeatherColorCorrection.Temperature.BaseMin 13.3
+WeatherColorCorrection.Temperature.BaseMax 15.3
+WeatherColorCorrection.Temperature.Max 42.0
 
 # Light Falloff Multiplier Settings 
 LightFalloff.Multiplier.low 1.0

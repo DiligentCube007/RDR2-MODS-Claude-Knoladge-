@@ -97,5 +97,7 @@ stars, shadows, puddles, rain particle count, wetness, grass, motion blur and mo
   `grass.Wind*` lines, which make grass react gently to RW's wind.
 
 Replacing one file with the other loses either all of Vestigia's tuning or RW's grass sway.
-Vestigia's file now has **Vestigia's settings plus RW's 9 grass-wind lines**. I copied the same merged
-file into RW Grass Sway, so load order doesn't matter. The originals are in `_backup_original_rain_files/`.
+Both mods now use **your hand-tuned merged file**. It has Vestigia's settings plus RW's 9 grass-wind lines
+and RW's fog-volume wind lines, and blended values for drying speed, stars, the sky far clip, puddle ripples,
+dirt wash, snow melt, vehicle drying and temperature colour correction. The same file is in Vestigia and
+RW Grass Sway, so load order doesn't matter. The originals are in `_backup_original_rain_files/`.
