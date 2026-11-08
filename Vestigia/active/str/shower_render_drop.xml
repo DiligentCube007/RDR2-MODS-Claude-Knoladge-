@@ -25,12 +25,12 @@
   <directionalZSizeRangeSpeedRange x="1.000000" y="1.000000" z="0.000000" w="1.000000" />
   <dirVelAddCamSpeedMinMaxMult x="10.000000" y="50.000000" z="0.500000" />
   <edgeSoftness value="1.000000" />
-  <particleColorPercentage value="0.200000" />
+  <particleColorPercentage value="0.300000" />
   <backgroundDistortionVisibilityPercentage value="1.600000" />
   <backgroundDistortionAlphaBooster value="1.600000" />
   <backgroundDistortionAmount value="180.000000" />
   <backgroundDistortionBlurLevel value="0" />
-  <directionalAndAmbientMultiplier value="0.600000" />
+  <directionalAndAmbientMultiplier value="0.500000" />
   <localLightsMultiplier value="1.000000" />
   <directionalLightShadowAmount value="1.000000" />
   <translucency value="0.200000" />

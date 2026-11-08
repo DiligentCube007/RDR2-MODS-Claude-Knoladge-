@@ -131,3 +131,16 @@ The URBAN region was already neutral. At noon it goes from 0.006/0.005/0.188 to 
 cloudy, foggy and snowy weathers keep Vestigia's look, so the haze warms up gradually as the weather turns rainy.
 
 The previous versions of all these files are in `_backup_original_rain_files/pre_visibility_and_haze/`.
+
+---
+
+# Update 4: rain balance between sky and ground
+The drops were lit to about the same brightness as an overcast sky, so they disappeared against the clouds
+but stood out against the darker ground. Drops now have more of their own colour and are a little darker
+than the sky, so they read about the same everywhere. Three presets are in `variants/rain visibility/`
+("1 - softer (previous)", "0 - default (balanced)" which is installed, and "2 - stronger").
+
+| | Rain / Shower | Thunderstorm / Hurricane | Drizzle |
+|---|---|---|---|
+| `particleColorPercentage` | 0.20 → **0.30** | 0.20 → **0.30** | 0.70 → **0.75** |
+| `directionalAndAmbientMultiplier` | 0.6 → **0.5** | 1.0 → **0.8** | 1.0 → **0.85** |
