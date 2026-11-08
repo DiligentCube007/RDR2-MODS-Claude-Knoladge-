@@ -25,6 +25,7 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | **15 - fog noise (MIST PLANE FIX)** | previous / rainy weathers* / all weathers. THE fix for the moving 2D mist plane | rain/fog `w_*.xml` timecycles | `active/ess` |
 | 16 - wind-driven fog | current* / gentle drift / strong drift + wisps (rain haze moves with the wind) | 13 rain `w_*.xml` timecycles | `active/ess` |
 | 17 - volumetric-only fog | current* / volumetric only / + thicker / + wind (flat fog layer off, 3D fog takes over) | 13 rain `w_*.xml` timecycles | `active/ess` |
+| 18 - fog noise off (smooth volumetric) | current* / noise off (perfectly smooth) / very faint pattern | 13 rain `w_*.xml` timecycles | `active/ess` |
 | **99 - TROUBLESHOOTING - find the mist plane** | test install.xml files that switch off one part of Vestigia at a time | `install.xml` | `lml/Vestigia/` (put the original back after) |
 
 \* = installed now.
