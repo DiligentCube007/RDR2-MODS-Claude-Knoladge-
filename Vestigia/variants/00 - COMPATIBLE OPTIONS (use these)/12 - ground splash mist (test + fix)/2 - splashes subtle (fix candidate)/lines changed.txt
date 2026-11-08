@@ -1,0 +1,26 @@
+What this option changes:
+
+File: Vestigia/active/ess/rainstorm_render_ground.xml
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="15.000000" />
+   <dofAlphaOutputMultiplier value="36.099998" />   ->   <dofAlphaOutputMultiplier value="1.000000" />
+   <nearScale_Range x="0.666000" y="6.000000" />   ->   <nearScale_Range x="0.666000" y="1.500000" />
+
+File: Vestigia/active/ess/thunder_render_ground.xml
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="15.000000" />
+   <dofAlphaOutputMultiplier value="0.000000" />   ->   <dofAlphaOutputMultiplier value="0.000000" />
+   <nearScale_Range x="0.666000" y="6.000000" />   ->   <nearScale_Range x="0.666000" y="1.500000" />
+
+File: Vestigia/active/str/shower_render_ground.xml
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="15.000000" />
+   <dofAlphaOutputMultiplier value="36.099998" />   ->   <dofAlphaOutputMultiplier value="1.000000" />
+   <nearScale_Range x="0.666000" y="6.000000" />   ->   <nearScale_Range x="0.666000" y="1.500000" />
+
+File: Vestigia/active/str/hurricane_render_ground.xml
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="15.000000" />
+   <dofAlphaOutputMultiplier value="0.000000" />   ->   <dofAlphaOutputMultiplier value="0.000000" />
+   <nearScale_Range x="0.666000" y="6.000000" />   ->   <nearScale_Range x="0.666000" y="1.500000" />
+
+File: Vestigia/active/str/drizzle_render_ground.xml
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="15.000000" />
+   <dofAlphaOutputMultiplier value="36.099998" />   ->   <dofAlphaOutputMultiplier value="1.000000" />
+   <nearScale_Range x="0.666000" y="6.000000" />   ->   <nearScale_Range x="0.666000" y="1.500000" />

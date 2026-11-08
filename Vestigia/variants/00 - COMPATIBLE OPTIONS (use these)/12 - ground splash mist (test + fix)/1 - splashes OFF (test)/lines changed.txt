@@ -1,0 +1,36 @@
+What this option changes:
+
+File: Vestigia/active/ess/rainstorm_render_ground.xml
+   <colour x="0.100000" y="0.100000" z="0.100000" w="0.090000" />   ->   <colour x="0.100000" y="0.100000" z="0.100000" w="0.000000" />
+   <backgroundDistortionVisibilityPercentage value="1.000000" />   ->   <backgroundDistortionVisibilityPercentage value="0.000000" />
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="0.000000" />
+   <backgroundDistortionAmount value="1000.000000" />   ->   <backgroundDistortionAmount value="0.000000" />
+   <dofAlphaOutputMultiplier value="36.099998" />   ->   <dofAlphaOutputMultiplier value="0.000000" />
+
+File: Vestigia/active/ess/thunder_render_ground.xml
+   <colour x="0.100000" y="0.100000" z="0.100000" w="0.150000" />   ->   <colour x="0.100000" y="0.100000" z="0.100000" w="0.000000" />
+   <backgroundDistortionVisibilityPercentage value="1.000000" />   ->   <backgroundDistortionVisibilityPercentage value="0.000000" />
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="0.000000" />
+   <backgroundDistortionAmount value="1000.000000" />   ->   <backgroundDistortionAmount value="0.000000" />
+   <dofAlphaOutputMultiplier value="0.000000" />   ->   <dofAlphaOutputMultiplier value="0.000000" />
+
+File: Vestigia/active/str/shower_render_ground.xml
+   <colour x="0.100000" y="0.100000" z="0.100000" w="0.090000" />   ->   <colour x="0.100000" y="0.100000" z="0.100000" w="0.000000" />
+   <backgroundDistortionVisibilityPercentage value="1.000000" />   ->   <backgroundDistortionVisibilityPercentage value="0.000000" />
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="0.000000" />
+   <backgroundDistortionAmount value="1000.000000" />   ->   <backgroundDistortionAmount value="0.000000" />
+   <dofAlphaOutputMultiplier value="36.099998" />   ->   <dofAlphaOutputMultiplier value="0.000000" />
+
+File: Vestigia/active/str/hurricane_render_ground.xml
+   <colour x="0.100000" y="0.100000" z="0.100000" w="0.150000" />   ->   <colour x="0.100000" y="0.100000" z="0.100000" w="0.000000" />
+   <backgroundDistortionVisibilityPercentage value="1.000000" />   ->   <backgroundDistortionVisibilityPercentage value="0.000000" />
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="0.000000" />
+   <backgroundDistortionAmount value="1000.000000" />   ->   <backgroundDistortionAmount value="0.000000" />
+   <dofAlphaOutputMultiplier value="0.000000" />   ->   <dofAlphaOutputMultiplier value="0.000000" />
+
+File: Vestigia/active/str/drizzle_render_ground.xml
+   <colour x="0.100000" y="0.100000" z="0.100000" w="0.090000" />   ->   <colour x="0.100000" y="0.100000" z="0.100000" w="0.000000" />
+   <backgroundDistortionVisibilityPercentage value="1.000000" />   ->   <backgroundDistortionVisibilityPercentage value="0.000000" />
+   <backgroundDistortionAlphaBooster value="100.000000" />   ->   <backgroundDistortionAlphaBooster value="0.000000" />
+   <backgroundDistortionAmount value="1000.000000" />   ->   <backgroundDistortionAmount value="0.000000" />
+   <dofAlphaOutputMultiplier value="36.099998" />   ->   <dofAlphaOutputMultiplier value="0.000000" />
