@@ -1,0 +1,37 @@
+THE 2D "MIST PLANE" IN RAIN = RW's wind debris / whirlwind effects (not Vestigia, not the rain particles)
+
+Realistic Weather (RealisticWeather.asi) spawns two wind effects near the player in strong wind:
+  - Wind debris  : vanilla wind dust/debris clouds (env_wind_debris_*), drift along the ground
+  - Whirlwind    : a dust-swirl column (ent_amb_wind_litter_dust_swirl), vertical and round
+In rain these dust textures look like a white 2D mist cloud that follows you.
+
+WHERE: RealisticWeather.ini in your game folder (next to RealisticWeather.asi and RDR2.exe),
+section [RealisticWeather]. RW creates it the first time the game runs with the mod.
+Edit with Notepad, save, restart the game.
+
+STEP 1 - TEST (turn both off):
+    SevereDebrisEnabled=0
+    WhirlwindEnabled=0
+  If the mist plane is gone -> it was RW. Then try step 2 to find which one, or just leave them off.
+
+STEP 2 - find which one (turn ONE back on at a time):
+    SevereDebrisEnabled=1   (WhirlwindEnabled=0)   -> mist back? it's the debris
+    WhirlwindEnabled=1      (SevereDebrisEnabled=0) -> mist back? it's the whirlwind
+
+STEP 3 - keep the effect but make it subtle (instead of off):
+    Debris     : SevereDebrisAlphaPercent=33  -> 10     (how visible)
+                 SevereDebrisScalePercent=85  -> 60     (how big)
+                 SevereDebrisFarClipMeters=45 -> 25     (how far away it can appear)
+    Whirlwind  : WhirlwindAlphaPercent=40     -> 12
+                 WhirlwindScalePercent=80     -> 60
+                 WhirlwindChancePercentPerMinute=14 -> 5   (how often)
+
+Default values (to undo): SevereDebrisEnabled=1, SevereDebrisAlphaPercent=33, SevereDebrisScalePercent=85,
+SevereDebrisFarClipMeters=45, WhirlwindEnabled=1, WhirlwindChancePercentPerMinute=14,
+WhirlwindAlphaPercent=40, WhirlwindScalePercent=80, WhirlwindFarClipMeters=40
+
+Nuclear option: EnhancedWindDynamics=0 turns off ALL of RW's wind features (gusts, debris, whirlwinds)
+but keeps RW's weather transitions/persistence.
+
+If you use the RW trainer: it reports when debris / a whirlwind is active, so you can check the
+trainer at the moment the mist appears.
