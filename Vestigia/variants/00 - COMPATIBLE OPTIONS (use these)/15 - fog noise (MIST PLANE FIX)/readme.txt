@@ -9,14 +9,14 @@ softer and much more 'rainy'. This fix puts these 11 settings back to each weath
 values; everything else in Vestigia (colours, lighting, clouds, haze colour fix) stays the same.
 
 1 - rainy weathers (INSTALLED)
-      Drizzle, Rain, Shower (+3 story variants), Sleet, Hail, Hurricane.
+      Drizzle, Rain, Shower (+3 story variants), Sleet, Hail, Hurricane, Thunder, Thunderstorm (+2 variants).
 2 - all weathers
       Also Clouds, Overcast, Overcast Dark, Fog, Misty, Snow, Blizzard, High Pressure etc.
       Same even-spread haze everywhere. Copy all files of this folder to Vestigia/active/ess.
 0 - previous (Vestigia fog noise) = undo (all weathers).
 
 HOW: copy all files from ONE option folder to  Vestigia/active/ess  (replace).
-THUNDER / THUNDERSTORM: see 'THUNDER and THUNDERSTORM - hand edit.txt'.
+THUNDER / THUNDERSTORM: included. 'thunder fix (4 files).zip' = only the 4 thunder files, to drop into active/ess.
 
 Option 1 changes:
     w_drizzle.xml: 9 settings
