@@ -19,6 +19,7 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | 05 - night brightness | current* / dark / very dark / pitch black | `visualsettings.dat` | `active/ess` |
 | 06 - pickup glow | current* / disabled | `visualsettings.dat` | `active/ess` |
 | 07 - grass texturing | current* / vanilla grass | `visualsettings.dat` | `active/ess` |
+| 08 - rain particles (full set) | current* / original combine (pure Rain Particles Fix values, no later tweaks) | 23 rain particle files | `active/ess` + `active/str` |
 
 \* = installed now.
 
