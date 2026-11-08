@@ -158,3 +158,9 @@ few dense, sharp-edged blobs. We found it by testing against the vanilla timecyc
 3 story variants), Sleet, Hail and Hurricane. The result is even, all-around rain haze. Everything else in
 Vestigia is unchanged. Options are in `variants/00 - COMPATIBLE OPTIONS (use these)/15 - fog noise (MIST PLANE FIX)`:
 previous, rainy weathers (installed), all weathers. There are also hand-edit instructions for Thunder and Thunderstorm.
+
+# Update 6: drizzle fog plane
+After the fog-noise fix switched the game's localized fog back on, Drizzle still showed the plane. Vestigia's
+`weather.xml` gives DRIZZLE the Fog switch on (1) and the `localized_density_map_Rain` fog shape. Vanilla uses
+Fog 0 and `RainDense`, which Shower already matched. **Installed:** DRIZZLE now uses the vanilla values, in both
+`active/ess/weather.xml` and the Rain Sheets add-on's `weather.xml` (option 20 has the revert).

@@ -1486,7 +1486,7 @@
       <WindGustsFadeOutRatioMax value="0.75"/>
       <Rain value="1.00000"/>
       <Snow value="0.000000"/>
-      <Fog value="1.000000"/>
+      <Fog value="0.000000"/>
       <CloudType value="0.20"/>
       <MudWashSpeed value="0.0" />
       <WetnessIncSpeed value="0.020" />
@@ -1564,7 +1564,7 @@
         </TimeCycleVariation>
       </Variations>
       <CloudSettingsName>CLOUDS_far</CloudSettingsName>
-      <LocalizedDensityMap>localized_density_map_Rain</LocalizedDensityMap>
+      <LocalizedDensityMap>localized_density_map_RainDense</LocalizedDensityMap>
     </Item>
     <Item>
       <Name>RAIN</Name>
