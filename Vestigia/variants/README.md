@@ -23,6 +23,7 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | 09 - drizzle visibility | current* / more visible (same size and amount) | `drizzle_render_drop.xml` | `active/ess` |
 | 10 - heavy rain light glow | current* / less glow toward sun and lamps (Rain, Shower, Thunderstorm, Hurricane) | 4 `*_render_drop.xml` | `active/ess` + `active/str` |
 | **15 - fog noise (MIST PLANE FIX)** | previous / rainy weathers* / all weathers. THE fix for the moving 2D mist plane | rain/fog `w_*.xml` timecycles | `active/ess` |
+| 16 - wind-driven fog | current* / gentle drift / strong drift + wisps (rain haze moves with the wind) | 13 rain `w_*.xml` timecycles | `active/ess` |
 | **99 - TROUBLESHOOTING - find the mist plane** | test install.xml files that switch off one part of Vestigia at a time | `install.xml` | `lml/Vestigia/` (put the original back after) |
 
 \* = installed now.
