@@ -15,3 +15,12 @@ File: Vestigia/active/ess/thunder_emitter_drop.xml
 File: Vestigia/active/str/hurricane_emitter_drop.xml
    <boxCentreOffset x="-1.000000" y="6.000000" z="1.700000" />   ->   <boxCentreOffset x="0.000000" y="8.000000" z="4.000000" />
    <boxSize x="10.000000" y="8.000000" z="15.000000" />   ->   <boxSize x="22.000000" y="20.000000" z="20.000000" />
+
+File: Vestigia/active/ess/drizzle_emitter_drop.xml
+   <boxCentreOffset x="-1.000000" y="6.000000" z="1.700000" />   ->   <boxCentreOffset x="0.000000" y="8.000000" z="4.000000" />
+   <boxSize x="10.000000" y="8.000000" z="15.000000" />   ->   <boxSize x="22.000000" y="20.000000" z="20.000000" />
+
+OPTIONAL - more drops so rain doesn't get sparser (costs some GPU performance):
+File: Vestigia/active/ess/visualsettings.dat
+   rain.NumberParticles      32768   ->   65536
+   rain.NumberParticles.ps3  32768   ->   65536

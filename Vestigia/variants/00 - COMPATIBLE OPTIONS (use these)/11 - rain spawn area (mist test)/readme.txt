@@ -18,5 +18,6 @@ OPTION B - edit by hand (use this if you already picked another rain preset in 0
   Open '1 - larger spawn area (test)/lines changed.txt'. For each file listed, open it in Notepad,
   find the setting and change the number to the new value. Save.
 
-Affects: Rain, Shower, Thunderstorm, Hurricane emitters (4 files, not the look files).
+Affects: Drizzle, Rain, Shower, Thunderstorm, Hurricane emitters (5 files, not the look files).
+Optional: raise rain.NumberParticles in visualsettings.dat (see 'lines changed.txt') to keep rain dense.
 Compatible with every option in 01, 09 and 10 (different files). Overwritten only by 08.
