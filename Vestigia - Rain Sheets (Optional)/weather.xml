@@ -112,14 +112,14 @@
     </Item>
     <Item>
       <Name>THUNDER_SHEET</Name>
-      <SystemType>SYSTEM_TYPE_DROP</SystemType>
+      <SystemType>SYSTEM_TYPE_SHEET</SystemType>
       <diffuseName>rain</diffuseName>
       <distortionTexture>distortion_rain_n</distortionTexture>
       <diffuseSplashName>rain_anim_td</diffuseSplashName>
       <driveType>DRIVE_TYPE_RAIN</driveType>
-      <windInfluence value="1.0"/>
-      <gravity value="-70.0"/>
-      <particleStartThreshold value="0.0"/>
+      <windInfluence value="0.02"/>
+      <gravity value="-35.000000"/>
+	  <particleStartThreshold value="0.3"/>
       <emitterSettingsName>common:/data/levels/rdr3/weather/thunder_emitter_sheet</emitterSettingsName>
       <renderSettingsName>common:/data/levels/rdr3/weather/thunder_render_sheet</renderSettingsName>
     </Item>
@@ -1947,7 +1947,7 @@
 
       <DropSettingName>HURRICANE_DROP</DropSettingName>
       <GroundSettingName>HURRICANE_GROUND</GroundSettingName>
-      <SheetSettingName>THUNDER_SHEET</SheetSettingName>
+      <SheetSettingName>-</SheetSettingName>
       <TimeCycleFilename>COMMON:/DATA/TIMECYCLE/W_HURRICANE.XML</TimeCycleFilename> 
 	  <Variations>
         <TimeCycleVariation>
