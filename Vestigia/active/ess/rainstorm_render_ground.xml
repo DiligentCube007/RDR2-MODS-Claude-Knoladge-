@@ -4,7 +4,7 @@
   <useAlphaThreshold value="true" />
   <useMistMap value="false" />
   <useTopViewSwitch value="true" />
-  <transitionFade value="false" />
+  <transitionFade value="true" />
   <textureRowsColsStartEnd x="5.000000" y="5.000000" z="0.000000" w="14.000000" />
   <textureAnimRateScaleOverLifeStart2End2 x="0.000000" y="0.000000" z="20.000000" w="24.000000" />
   <sizeMinMax x="0.020000" y="0.020000" z="0.120000" w="0.200000" />
@@ -29,7 +29,7 @@
   <particleColorPercentage value="0.500000" />
   <backgroundDistortionVisibilityPercentage value="1.000000" />
   <backgroundDistortionAlphaBooster value="100.000000" />
-  <backgroundDistortionAmount value="10000.000000" />
+  <backgroundDistortionAmount value="1000.000000" />
   <backgroundDistortionBlurLevel value="0" />
   <directionalAndAmbientMultiplier value="1.000000" />
   <localLightsMultiplier value="0.700000" />

@@ -1584,15 +1584,15 @@ misc.PortalBlendWeight.Min			0.005
 ShadowFeezor.MaxAngleOffset			0.02
 
 # Grass
-grass.ApplyGrassWindOverrides		0.0
-grass.WindBendScaleOverride			0.2
-grass.WindBendVariationOverride		0.5
-grass.WindThreshholdMinOverride		1.0
-grass.WindThreshholdMaxOverride		5.0
-grass.WindUmSpeedMinOverride		1.0
-grass.WindUmSpeedMaxOverride		7.5
-grass.WindUmScaleMinOverride		0.25
-grass.WindUmScaleMaxOverride		2.0
+grass.ApplyGrassWindOverrides		1.0
+grass.WindBendScaleOverride			0.15
+grass.WindBendVariationOverride		0.12
+grass.WindThreshholdMinOverride		0.04
+grass.WindThreshholdMaxOverride		0.75
+grass.WindUmSpeedMinOverride		0.02
+grass.WindUmSpeedMaxOverride		0.60
+grass.WindUmScaleMinOverride		0.02
+grass.WindUmScaleMaxOverride		0.75
 
 grass.FireMinAlphaRefAdjustment			85
 grass.FireMaxAlphaRefAdjustment			160

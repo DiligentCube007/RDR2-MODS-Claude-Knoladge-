@@ -17,15 +17,15 @@ raincollision.waterspeed	1.00
 				
 				
 #Values for rain GPU particle effect				
-rain.NumberParticles.ps3	16384			
-rain.NumberParticles	16384			
+rain.NumberParticles.ps3	32768			
+rain.NumberParticles	32768			
 rain.UseLitShader	1.00			
 # rain.gravity	0.00	0.00	-0.98	
 rain.gravity.x	0.00			
 rain.gravity.y	0.00			
 rain.gravity.z	-0.98			
 rain.fadeInScale	2.00			
-rain.diffuse	1.00			
+rain.diffuse	1.00					
 rain.ambient	0.40			
 rain.wrapScale	0.60			
 rain.wrapBias	0.40			
@@ -38,27 +38,26 @@ rain.defaultlight.alpha	16.00
 #General weather configuration
 weather.CycleDuration 120
 
-weather.dryingSpeedAtMinTemp 1.0
-weather.dryingSpeedMinTemp 10.0
-weather.dryingSpeedAtMaxTemp 1.0
+weather.dryingSpeedAtMinTemp 0.1
+weather.dryingSpeedMinTemp 0.1
+weather.dryingSpeedAtMaxTemp 3.0
 weather.dryingSpeedMaxTemp 50.0
 
-weather.dryingSpeedAtMinHumidity 1.0
+weather.dryingSpeedAtMinHumidity 2.0
 weather.dryingSpeedMinHumidity 10.0
-weather.dryingSpeedAtMaxHumidity 1.0
+weather.dryingSpeedAtMaxHumidity 0.5
 weather.dryingSpeedMaxHumidity 50.0
 
 #Config for static values for skyhat				
 sky.RebuildAcrossFrame 1.0
 sky.MultipleScattering 1.0
-sky.AltitudeBias 0.01
+sky.AltitudeBias 0.01 #0.01
 sky.SunIntensity 100000.0
-sky.MoonIntensity 1.0
+sky.MoonIntensity 0.1
 sky.AmbientMieG 0.8
 sky.AltitudeRemapFactor 1.0
 sky.AtmosphereThickness 8.0
-sky.AerialPerspectiveFarClip 10000.0
-
+sky.AerialPerspectiveFarClip 100000.0
 #Config for night sky stars
 stars.constellations.size				1.0
 stars.constellations.intensity			0.01
@@ -67,27 +66,27 @@ stars.constellations.intensityGalaxy 	0.05
 stars.cloud.color.red 		1.0
 stars.cloud.color.green 	0.5
 stars.cloud.color.blue 		0.0
-stars.cloud.intensity 		0.01
-stars.cloud.intensityGalaxy 0.02
+stars.cloud.intensity 		0.08
+stars.cloud.intensityGalaxy 0.08
 stars.cloud.axisBlend 		4.0
 
-stars.dense.color.red 		0.549
-stars.dense.color.green 	0.627
+stars.dense.color.red 		1.0
+stars.dense.color.green 	1.0
 stars.dense.color.blue 		1.0
-stars.dense.intensity 		1.0
-stars.dense.intensityGalaxy 3.0
+stars.dense.intensity 		1.2
+stars.dense.intensityGalaxy 1.2
 stars.dense.tiling 			4.0
 stars.dense.axisBlend 		4.0
 
-stars.sparse.color.red 			0.709
-stars.sparse.color.green 		0.627
-stars.sparse.color.blue 		1.00
-stars.sparse.intensity 			1.0
-stars.sparse.intensityGalaxy 	30.0
+stars.sparse.color.red 			1.0
+stars.sparse.color.green 		1.0
+stars.sparse.color.blue 		1.0
+stars.sparse.intensity 			24.0
+stars.sparse.intensityGalaxy 	2.0
 stars.sparse.tiling 			4.0
 stars.sparse.axisBlend 			0.5
 
-stars.frequency 			2.0
+stars.frequency 			5.0
 stars.noiseTiling 			4.0
 stars.heightBlend 			3000.0
 stars.blinkHeightBlend 		24000.0
@@ -711,19 +710,19 @@ imposter.trees.ReflectionDistScale 0.15
 imposter.trees.pregenBlendWidth 0.333333
 imposter.trees.airplanePush 1.0 
 imposter.trees.viewAnglePush 0.0
-imposter.trees.shadowAlphaScale 0.6
-imposter.trees.shadowDitherSpread 1.0
-imposter.trees.baseFOV 42.19
-imposter.trees.noiseAlpha 0.275
-imposter.trees.noiseAlbedo 0.5
-imposter.trees.noiseNormal 0.7
+imposter.trees.shadowAlphaScale 0.0
+imposter.trees.shadowDitherSpread 0.0
+imposter.trees.baseFOV 0.00
+imposter.trees.noiseAlpha 0.0
+imposter.trees.noiseAlbedo 0.0
+imposter.trees.noiseNormal 0.0
 imposter.trees.verticalsplit.maxdistance 96.0
 imposter.trees.verticalsplit.heightscale 16.0
 
 #Config values for horse coat shine
 horse.coatShineDecrease 0.0
 
-ped.snowMelt.mintemp -3.0
+ped.snowMelt.mintemp 0.0
 ped.snowMelt.maxtemp 5.0
 ped.snowMelt.meltRate 0.015
 ped.snowMelt.evaporationRate 0.5
@@ -768,7 +767,7 @@ ped.eyeDilationGlobalActive 1
 ped.eyeDilationLerpRate 0.5
 
 #Config values for ped sweat
-ped.sweat.room.temp 25.0
+ped.sweat.room.temp 24.0
 ped.sweat.full.temp 30.0
 ped.sweat.temp.mult 0.5
 ped.sweat.humidity.rate 0.005
@@ -779,14 +778,14 @@ ped.sweat.decal.min 0.75
 ped.sweat.decal.max 0.95
 ped.sweat.humidity.min 0.6
 ped.sweat.humidity.max 1.0
-ped.sweat.exertion.required 0.55
+ped.sweat.exertion.required 0.30
 ped.sweat.exertion.minIncrease 0.002
 ped.sweat.exertion.maxIncrease 0.01
 ped.sweat.exertion.minDecrease 0.002
 ped.sweat.exertion.maxDecrease 0.005
 
 #Config values for horse sweat
-horse.sweat.room.temp 21.0
+horse.sweat.room.temp 24.0
 horse.sweat.full.temp 30.0
 horse.sweat.temp.mult 0.5
 horse.sweat.humidity.rate 0.005
@@ -818,15 +817,15 @@ ped.dryRateMaxTemp 50.0
 ped.snowMeltMult		7.0
 ped.underlyingSnowMelt	0.5
 
-ped.dirtWashMult 0.0
+ped.dirtWashMult 1.0
 ped.snowWashMult 1.0
 
 #Config values for peds				
-ped.ambientvolume.maxstrength	1.000			
-ped.ambientvolume.fadestart	16.000			
-ped.ambientvolume.fadeend	20.000			
+ped.ambientvolume.maxstrength	2.000			
+ped.ambientvolume.fadestart	32.000			
+ped.ambientvolume.fadeend	40.000			
 ped.ambientvolume.baseintensity 0.000
-ped.windUmToggle 1.000
+ped.windUmToggle 2.000
 
 #Config for water level dirt line.
 ped.waterlinedirt.minwetdifference		0.3
@@ -997,7 +996,7 @@ skindirt.animal.vertMultEndValue					1.0
 # player dirt increment rules (change are in seconds or quantity for some)
 # note we list the ones that result in cleaning the ped first as they
 # should take precedence
-peddirt.change.player.fadetogrubby    3.0
+peddirt.change.player.fadetogrubby    0.0
 peddirt.change.player.inwater         2.0
 peddirt.change.player.inrain          5.0
 peddirt.change.player.waterfall       2.0
@@ -1179,7 +1178,7 @@ ped.naa.translucencyColor.blue		0.008
 ped.lod.distance.high	10.00
 ped.lod.distance.medium	20.00
 ped.lod.distance.low	60.00
-pedincar.lod.distance.high	7.00	
+pedincar.lod.distance.high	7.00			
 
 # ped detail
 
@@ -1302,7 +1301,7 @@ cam.fpsweapon.blur.cap	1
 cam.intermezzo.stuntjump.blur	0.02			
 				
 # Containers LOD				
-lod.container.caploddist	750			
+lod.container.caploddist	750											
 
 # distant lights
 distantlights.numvertexbuffers          4.0           
@@ -1370,7 +1369,7 @@ emissive.night.end.time			4
 misc.useNoCoverageTechniques	1.0
 
 misc.DOFBlurMultiplier.HD	1			
-misc.DOFBlurMultiplier.SD	0.5			
+misc.DOFBlurMultiplier.SD	0.5						
 misc.Multiplier.heightStart	100			
 misc.Multiplier.heightEnd	250.00			
 misc.Multiplier.farClipMultiplier	1			
@@ -1423,7 +1422,7 @@ misc.coronas.m_scaleRampUp						1.5
 misc.coronas.m_scaleRampUpAngle					20.0
 misc.coronas.screenEdgeMinDistForFade	0.95
 
-misc.rendering.ggx.minRoughness 0.0002
+misc.rendering.ggx.minRoughness 0.04
 misc.rendering.ggx.luxCompression 16.0
 misc.rendering.prefilteredEnvMap 1.0
 misc.rendering.reflectionProbes.enableSearchRadius 0
@@ -1467,20 +1466,20 @@ misc.fog.voxel_distance_exponent_close	5.0
 misc.fog.voxel_coverage_deferred_close	40.0
 misc.fog.voxel_coverage_close			40.0
 misc.fog.weather_map_resolution			512
-misc.fog.cirrus_scale					0.6
-misc.fog.cirrus_control_scale			0.6
+misc.fog.cirrus_scale					0.3
+misc.fog.cirrus_control_scale			0.3
 misc.fog.planar_reflection_temporal_blend 0.95
 misc.fog.terrain_shadow_bias			-0.006
 misc.fog.density_map_height_min			-60.0
 misc.fog.density_map_height_max			784.0
-misc.fog.fog_volume_wind_scale			0.9
-misc.fog.fog_volume_wind_bias			0.1
-misc.fog.fog_volume_wind_min			1.0
+misc.fog.fog_volume_wind_scale			0.2
+misc.fog.fog_volume_wind_bias			0.0
+misc.fog.fog_volume_wind_min			0.0
 misc.fog.fog_volume_wind_max			10.0
-misc.fog.fog_volume_inv_wind_scale		0.75
-misc.fog.fog_volume_inv_wind_bias		0.25
-misc.fog.fog_volume_inv_wind_min		1.0
-misc.fog.fog_volume_inv_wind_max		6.0
+misc.fog.fog_volume_inv_wind_scale		0.2
+misc.fog.fog_volume_inv_wind_bias		0.0
+misc.fog.fog_volume_inv_wind_min		0.0
+misc.fog.fog_volume_inv_wind_max		2.0
 misc.fog.enableheightfog	1.0
 misc.fog.clampdistg			120.0
 misc.fog.minimumg			0.5
@@ -1498,7 +1497,7 @@ misc.CrossPMultiplier.Farblur	1.00
 misc.CrossPMultiplier.Desaturation 	1.00			
 misc.HiDof.nearBlur	1			
 misc.HiDof.midBlur	0.20			
-misc.HiDof.farBlur	1.00			
+misc.HiDof.farBlur	1.00					
 misc.cutscene.nearBlurMin	0.2			
 misc.PedKillOverlay.duration 750.0f
 
@@ -1553,12 +1552,12 @@ misc.HDRNoiseStrengthMult		0.25
  
 misc.AlphaFadeEnabledTree		1
 misc.AlphaFadeEnabledGrass		1
-misc.AlphaFadeEnabledGrassBatch	1
+misc.AlphaFadeEnabledGrassBatch		1
 
-misc.AlphaScaleExpTree              1.0
+misc.AlphaScaleExpTree              1
 
-misc.AlphaScaleExpGrass			    2.0
-misc.AlphaScaleExpGrassBatch	    0.0
+misc.AlphaScaleExpGrass			    1
+misc.AlphaScaleExpGrassBatch	    1
 
 misc.UseWheelsForPushVolumes		1.0
 
@@ -1576,6 +1575,7 @@ misc.SunSet.EndAngle				1.5
 // Used for day/night fade of lighting
 misc.SunRise.Light.StartHour			6.0
 misc.SunSet.Light.StartHour				20.0
+
 
 // tc interior/portal blend rate/min
 misc.InteriorBlendStr.Rate			0.07
@@ -1611,8 +1611,8 @@ grass.FireTranslucencyMax		0
 grass.FireRoughnessMin			255
 grass.FireRoughnessMax			255
 
-grass.normalVariationScale			75.0
-grass.normalVariationIntensity		0.3
+grass.normalVariationScale			2.0
+grass.normalVariationIntensity		2.0
 
 # Entity batch
 # NB: min/max instancescale is deprecated!
@@ -1633,28 +1633,27 @@ entitybatch.LodFade.Power				4.0
 entitybatch.UseAoAsTintMask				1
 
 # Tonemapping
-Tonemapping.bright.filmic.A                                             0.22
-Tonemapping.bright.filmic.B                                             0.3
-Tonemapping.bright.filmic.C                                             0.10
-Tonemapping.bright.filmic.D                                             0.2
-Tonemapping.bright.filmic.E                                             0.01
-Tonemapping.bright.filmic.F                                             0.3
+Tonemapping.bright.filmic.A                                             0.1 #0.22
+Tonemapping.bright.filmic.B                                             0.8 #0.8
+Tonemapping.bright.filmic.C                                             3.7 #0.1
+Tonemapping.bright.filmic.D                                             2.8 #0.01
+Tonemapping.bright.filmic.E                                             0.04 #0.05
+Tonemapping.bright.filmic.F                                             7.0 #5.0
 Tonemapping.bright.filmic.W                                            11.2
 Tonemapping.bright.filmic.W.HDR                                        1.0
 
 Tonemapping.bright.filmic.exposure	-6.0
 
-Tonemapping.dark.filmic.A                                                0.22
-Tonemapping.dark.filmic.B                                                0.3
-Tonemapping.dark.filmic.C                                                0.10
-Tonemapping.dark.filmic.D                                                0.2
-Tonemapping.dark.filmic.E                                0.0
-Tonemapping.dark.filmic.F                                0.3
-Tonemapping.dark.filmic.W                                               11.20
-Tonemapping.dark.filmic.W.HDR                                           1.0
+Tonemapping.dark.filmic.A                                             0.22 #0.22
+Tonemapping.dark.filmic.B                                             0.4
+Tonemapping.dark.filmic.C                                             0.1 #0.1
+Tonemapping.dark.filmic.D                                             0.2 #0.2
+Tonemapping.dark.filmic.E                                             0.0 #0.01
+Tonemapping.dark.filmic.F                                             0.3
+Tonemapping.dark.filmic.W                                            11.2
+Tonemapping.dark.filmic.W.HDR                                        1.0
 
 Tonemapping.dark.filmic.exposure		3.0
-
 
 # Exposure
 Exposure.curve.scale	                    -1.15
@@ -1707,7 +1706,7 @@ TEMP.Adaptation.sun.exposure.tweak	-2.0
 
 
 # Cloud speeds
-cloud.speed.hats	1.0
+cloud.speed.hats	3.0
 
 # lod fade distances
 lod.fadedist.orphanhd	20.0
@@ -1800,14 +1799,11 @@ lights.localLights.intensityMultiplier 1.0f
 // Bloom
 bloom.threshold.min			0.4
 bloom.threshold.power			1.0
-
 bloom.threshold.expsoure.diff.min	0.0
 bloom.threshold.expsoure.diff.max	1.1
-
 bloom.blurblendmult.large	5.0
 bloom.blurblendmult.med		0.645
 bloom.blurblendmult.small	0.630
-
 bloom.airy.enable 			1.0
 bloom.airy.downsampledInput 0.0
 bloom.airy.weight2			0.712
@@ -1876,27 +1872,28 @@ temporalaa.varianceAntiFlickerLumMax	0.4
 
 sharpen.intensity 								0.15
 
+
 // Minimap alpha
 UI.minimap.alpha				0.8
 
 // Puddles
 puddles.scale 					0.02
-puddles.range 					0.0
-puddles.depth					0.6
-puddles.depthtest				0.200
+puddles.range 					1.0
+puddles.depth					1.0
+puddles.depthtest				1.0
 puddles.reflectivity			1.0
-puddles.strength				0.5
-puddles.animspeed				30.
-puddles.ripples.minsize			0.012	
-puddles.ripples.maxsize			0.02
-puddles.ripples.speed			10
-puddles.ripples.minduration		4.0
-puddles.ripples.maxduration		5.0
+puddles.strength				1.0
+puddles.animspeed				60.
+puddles.ripples.minsize			0.003	
+puddles.ripples.maxsize			0.007
+puddles.ripples.speed			50
+puddles.ripples.minduration		16.0
+puddles.ripples.maxduration		20.0
 puddles.ripples.dropfactor		0.8
 puddles.ripples.windstrength	0.03
 puddles.ripples.ripplestrength	0.7
 puddles.ripples.winddamping		0.05
-puddles.ripples.playerspeed		10.0
+puddles.ripples.playerspeed		15.0
 puddles.ripples.playermapsize	8
 
 // LOD lights
@@ -1981,8 +1978,8 @@ vehicle.wheelmud.vertPushScale.snowCompact	0.015
 
 vehicle.weather.minDrySpeed		0.001
 vehicle.weather.maxDrySpeed		0.01
-vehicle.weather.minDryTemp		15
-vehicle.weather.maxDryTemp		30
+vehicle.weather.minDryTemp		0
+vehicle.weather.maxDryTemp		45
 vehicle.weather.minMeltSpeed	0.0
 vehicle.weather.maxMeltSpeed	0.01
 vehicle.weather.minMeltTemp		0.0
@@ -2003,7 +2000,7 @@ vehicle.snow.thresholdEndValue 1.0
 vehicle.fastWheelShadowDist  50.0
 
 //Particle Shadow intensity
-particles.shadowintensity		0.5
+particles.shadowintensity		1.0
 
 // Fire
 fire.maxEntityFireBrokenFrags		15.0
@@ -2075,8 +2072,8 @@ ped.phonelight.cone.inner		0.0
 ped.phonelight.cone.outer		90.0
 
 //Adaptive DOF
-adaptivedof.exposureMin				-2.5
-adaptivedof.exposureMax				2.5
+adaptivedof.exposureMin				-2.0
+adaptivedof.exposureMax				2.0
 
 occlusion.primeZ.enabled					0.0
 occlusion.preZBias							-0.002
@@ -2111,7 +2108,7 @@ ssdo.screen_space_width_max				0.1
 ssdo.reflection_occlusion_strength		8.0
 ssdo.reflection_occlusion_bias			0.08
 ssdo.upscale_dither_radius				4.0
-ssdo.temporal_blend_taa_on				0.8
+ssdo.temporal_blend_taa_on				0.5
 ssdo.temporal_blend_taa_off				0.95
 
 ambientmap.skyProbeClassification		1.0
@@ -2274,13 +2271,12 @@ misc.MoonFade.ThresholdLength				5
 
 # Screen shadow near
 screenshadownear.numsamplesmin		4
-screenshadownear.numsamplesmax		12
+screenshadownear.numsamplesmax		16
 screenshadownear.raylengthmin		.057
 screenshadownear.raylengthmax		.17
 screenshadownear.opacitymin		    0.6
 screenshadownear.opacitymax	        0.6
 screenshadownear.cutoff			    0.043
-
 # Screen shadow far
 screenshadowfar.numsamplesmin		4
 screenshadowfar.numsamplesmax		12
@@ -2289,30 +2285,25 @@ screenshadowfar.raylengthmax		0.23
 screenshadowfar.opacitymin		    0.95
 screenshadowfar.opacitymax		    0.95
 screenshadowfar.cutoff			    0.03
-
 # Screen shadow ped
-screenshadowped.numsamplesmin		6
+screenshadowped.numsamplesmin		4
 screenshadowped.numsamplesmax		12
 screenshadowped.raylengthmin		.057
 screenshadowped.raylengthmax		.17
 screenshadowped.opacitymin		    0.8
 screenshadowped.opacitymax		    0.8
 screenshadowped.cutoff			    0.075
-
-
 #move to nearer cascade fade out range
 screenshadow.NearFarDist                    600.0								
 screenshadow.NoLDist	                    80.0
-
 worldheightshadow.numsamplesmin             1
 worldheightshadow.raylengthmin              50.0
 worldheightshadow.numsamplesmax             8
 worldheightshadow.raylengthmax              400.0
 worldheightshadow.errorScale                64.0
 worldheightshadow.errorBias                 0.011f
-
 // cascade shadow
-cascadeshadows.maxCascades                  4.0
+cascadeshadows.maxCascades                  5.0
 cascadeshadows.edgeFilterScale		    	3.0
 cascadeshadows.shaderSlopeBiasFactor		.075
 
@@ -2364,10 +2355,10 @@ cascadeshadow.entitytracker.sniperscope.smoothamount		.025
 cascadeshadow.entitytracker.sniperscope.expweight		.93
 
 #softshadows
-cascadeshadow.softshadows.angularDiameterOfSun   		.53
-cascadeshadow.softshadows.angularDiameterFullyCloudCoveredSun   10.
-cascadeshadow.softshadows.maxDistance				30.
-cascadeshadow.softshadows.interiorsoftness			0.25
+cascadeshadow.softshadows.angularDiameterOfSun   		1.0
+cascadeshadow.softshadows.angularDiameterFullyCloudCoveredSun   20.0
+cascadeshadow.softshadows.maxDistance				120. 
+cascadeshadow.softshadows.interiorsoftness			0.35 
 
 #esm
 cascadeshadow.esm.enablefardepthrejection			1
@@ -2468,11 +2459,11 @@ motionblur.fpv.MBLowCameraRotSpeedScale 0.75
 motionblur.fpv.MBHighCameraRotSpeedScale 0.5
 
 defaultmotionblur.enabled			1
-defaultmotionblur.strength			0.2
+defaultmotionblur.strength			0.25
 defaultmotionblur.fpv.enabled		1
-defaultmotionblur.fpv.strength		0.2
+defaultmotionblur.fpv.strength		0.25
 
-motionblur.MassiveBlurThreshold		330
+motionblur.MassiveBlurThreshold		300
 
 
 // water reflection
@@ -2501,27 +2492,27 @@ terrain.CavityBiasHighs     0.95
 
 # ---------- push sphere : Use for ped pushing the grass (land) and lilies on the water
 # How far behind the player the grass will stay pushed down (and will gradually get push back up)
-pushSphere.pushSphereTailSize 			1.0
+pushSphere.pushSphereTailSize 			0.1
 # When idle the trail behind the player is set to its minimum (0 length).  This variable tell how fast the tail should grow when we start moving
-pushSphere.pushSphereTailGrowSpeed		0.25
+pushSphere.pushSphereTailGrowSpeed		0.5
 # When idle the trail behind the player is set to its minimum (0 length).  When we change direction abruptly, or we stop moving, the tail shrink to 0.  
 #	This variable tell us how fast it will shring to 0
-pushSphere.pushSphereTailShrinkSpeed	1.0
+pushSphere.pushSphereTailShrinkSpeed		0.9
 # When idle the grass under the ped can be pushed down.  This is telling us how much it should be pushed down
 # 	[0, 1]
 # 	0 = not push down at all
 #	1 = push down to its maximum
-pushSphere.pushSphereStrengthIdle		0.5
+pushSphere.pushSphereStrengthIdle		0.75
 # the tail brighness can be modified
 #	[0, 1]
 #	0 = change down to black
 #	1 = unchanged
-pushSphere.pushSphereDimColor			0.8
+pushSphere.pushSphereDimColor			0.75
 # the grass is being pushed forward mostly.  This variable allow the grass to be push side way a little as well
 #	[0, 1]
 #	0 = no side push at all
 #	1 = max side push
-pushSphere.pushSphereStrengthSide		0.25
+pushSphere.pushSphereStrengthSide		0.75
 
 # Water (expressed as percentages of backbuffer area)
 water.depthoccluderthreshold			0.007901235
@@ -2698,16 +2689,14 @@ water.roughnessonreflections.maxupwardslerp				0.02
 water.secondrefractionpass.blur							1.6
 water.secondrefractionpass.strength						0.01
 water.secondrefractionpass.shallowmaskrange				0.3
-
 water.wsc.simactivitytexture.divvelthreshold			0.45
 water.wsc.simactivitytexture.radius						20.0
-
 water.wsc.riverfoammaxentries							512.0
 water.wsc.oceanfoammaxentries							512.0
 water.wsc.shorelinefoammaxentries						512.0
 water.wsc.riversimmaxpatches							512.0
 water.wsc.oceansimmaxpatches							512.0
-water.wsc.oceanhighdetaildeltas							73.0
+water.wsc.oceanhighdetaildeltas							512.0
 
 # water tessellation control
 tessellation.water.screenspaceerror						2.
@@ -2743,7 +2732,7 @@ heathaze.underwater.sample2.anim.x.amplitude			0.5
 heathaze.underwater.sample2.anim.y.speed				3.0
 
 # Gore mesh settings
-metapedgore.head.maxgoremesh	4.0
+metapedgore.head.maxgoremesh	12.0
 
 # HDR vignette
 vignette.gradientcurve 18
@@ -2856,17 +2845,17 @@ weapon.dirtTechnique 2
 weapon.detailTiling 1.5
 
 # Mirrors
-mirror.sharpenamount 0.25
+mirror.sharpenamount 0.1
 
 # Weather Color Correction Controls.
 WeatherColorCorrection.Humidity.Min 0
 WeatherColorCorrection.Humidity.BaseMin 0.49
 WeatherColorCorrection.Humidity.BaseMax 0.51
 WeatherColorCorrection.Humidity.Max 1
-WeatherColorCorrection.Temperature.Min -10.0
-WeatherColorCorrection.Temperature.BaseMin 14.0
-WeatherColorCorrection.Temperature.BaseMax 16.0
-WeatherColorCorrection.Temperature.Max 35.0
+WeatherColorCorrection.Temperature.Min -45.0
+WeatherColorCorrection.Temperature.BaseMin 13.0
+WeatherColorCorrection.Temperature.BaseMax 15.0
+WeatherColorCorrection.Temperature.Max 45.0
 
 # Light Falloff Multiplier Settings 
 LightFalloff.Multiplier.low 1.0
@@ -2922,4 +2911,3 @@ debug.validation.translucency.metalOn 0.1
 debug.translucency.phaseremapmult 0.4
 debug.translucency.phaseremapbias 0.3
 debug.translucency.phasemult 3.0
-

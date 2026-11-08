@@ -66,3 +66,36 @@ Hail, Sleet emitter and Sleet ground (ice texture), all Snow and Blizzard files,
 ## Undo
 The original files are in `_backup_original_rain_files/` (same `ess/` and `str/` layout). Copy them
 back into `active/` to undo the change. LML ignores this folder.
+
+---
+
+# Update 2: rain "mist" popping + RW grass sway merge
+
+## Rain ground "mist" that pops in and out
+The misty layer near the ground in rain comes from the **ground-splash particles**
+(`*_render_ground`). They are flat 2D animated splash sprites, and they also bend the image
+behind them (refraction). Two settings made them pop:
+
+| Setting | Before | After | Why |
+|---|---|---|---|
+| `transitionFade` | false | **true** | The sprites switch between "seen from the side" and "seen from above" as the camera tilts. With this off, the switch happens instantly and looks like a pop. |
+| `backgroundDistortionAmount` | 10000 | **1000** | 10× stronger than Rain Particles Fix's own thunder splashes, so each splash looked like a hazy smear. 1000 matches thunder and vanilla. |
+
+Changed in: `ess/rainstorm_render_ground`, `ess/thunder_render_ground`, `str/shower_render_ground`,
+`str/hurricane_render_ground` and `str/drizzle_render_ground`. Thunder and hurricane already used 1000,
+so only the fade changed in those two. The previous versions are in `_backup_original_rain_files/pre_mist_fix/`.
+
+**Disable the separate Rain Particles Fix mod now.** Vestigia's splash files are now improved
+versions, so the separate mod would undo this fix if it loads after Vestigia.
+
+## visualsettings.dat (RW Grass Sway + Vestigia)
+`visualsettings.dat` is the game's global graphics-tuning file, with about 2900 settings: tonemapping,
+stars, shadows, puddles, rain particle count, wetness, grass, motion blur and more.
+
+* **Vestigia's** copy is heavily tuned: tonemapping, stars, soft shadows, puddles, and 32768 rain particles.
+* **RW Grass Sway's** copy is an almost unchanged vanilla file. Its only real change is the 9
+  `grass.Wind*` lines, which make grass react gently to RW's wind.
+
+Replacing one file with the other loses either all of Vestigia's tuning or RW's grass sway.
+Vestigia's file now has **Vestigia's settings plus RW's 9 grass-wind lines**. I copied the same merged
+file into RW Grass Sway, so load order doesn't matter. The originals are in `_backup_original_rain_files/`.
