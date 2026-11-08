@@ -1,0 +1,1 @@
+Merges and/or variants that use the same files are NOT compatible together and need manual merging.
