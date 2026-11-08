@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeatherRegionListXMLContents>
+	<regions>
+		<Item>
+			<name>base</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+				<Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCASTDARK</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>DRIZZLE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>RAIN</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDER</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDERSTORM</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SHOWER</weatherName>
+					<probability value="10.00" />
+				</Item>
+			</regionInfos>
+		</Item>
+		<Item>
+			<name>westgrizzlies</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+				<Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SNOWCLEARING</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>WHITEOUT</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SNOWLIGHT</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SNOW</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>BLIZZARD</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>GROUNDBLIZZARD</weatherName>
+					<probability value="10.00" />
+				</Item>
+			</regionInfos>
+		</Item>
+		<Item>
+			<name>guarma</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+				<Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCASTDARK</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>HURRICANE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>RAIN</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDER</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDERSTORM</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SHOWER</weatherName>
+					<probability value="10.00" />
+				</Item>				
+			</regionInfos>
+		</Item>
+		<Item>
+			<name>greatPlains</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+				<Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCASTDARK</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>HAIL</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>RAIN</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDER</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDERSTORM</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SHOWER</weatherName>
+					<probability value="10.00" />
+				</Item>			
+			</regionInfos>
+		</Item>
+		<Item>
+			<name>bigValley</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+				<Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCASTDARK</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SLEET</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>RAIN</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDER</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDERSTORM</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SHOWER</weatherName>
+					<probability value="10.00" />
+				</Item>
+			</regionInfos>
+		</Item>
+		<Item>
+			<name>swamp</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+				<Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCASTDARK</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>HURRICANE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>RAIN</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDER</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDERSTORM</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SHOWER</weatherName>
+					<probability value="10.00" />
+				</Item>				
+			</regionInfos>
+		</Item>
+		<Item>
+			<name>newaustin</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+				<Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="45.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="41.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="1.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="1.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="1.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="1.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCASTDARK</weatherName>
+					<probability value="1.00" />
+				</Item>
+				<Item>
+					<weatherName>SANDSTORM</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>RAIN</weatherName>
+					<probability value="1.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDER</weatherName>
+					<probability value="1.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDERSTORM</weatherName>
+					<probability value="1.00" />
+				</Item>
+				<Item>
+					<weatherName>SHOWER</weatherName>
+					<probability value="1.00" />
+				</Item>					
+			</regionInfos>
+		</Item>
+		<Item>
+			<name>roanokeRidge</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+                                <Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCASTDARK</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>DRIZZLE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>RAIN</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDER</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDERSTORM</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SHOWER</weatherName>
+					<probability value="10.00" />
+				</Item>				
+			</regionInfos>
+		</Item>
+		<Item>
+			<name>scarlettmeadows</name>
+			<climateWaitMultiplier value="1" />
+			<regionInfos>
+				<Item>
+					<weatherName>HIGHPRESSURE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>SUNNY</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>MISTY</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>FOG</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>CLOUDS</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCAST</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>OVERCASTDARK</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>HURRICANE</weatherName>
+					<probability value="5.00" />
+				</Item>
+				<Item>
+					<weatherName>RAIN</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDER</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>THUNDERSTORM</weatherName>
+					<probability value="10.00" />
+				</Item>
+				<Item>
+					<weatherName>SHOWER</weatherName>
+					<probability value="10.00" />
+				</Item>				
+			</regionInfos>
+		</Item>
+	</regions>
+</CWeatherRegionListXMLContents>
