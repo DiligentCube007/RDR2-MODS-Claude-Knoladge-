@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CSnowGlints>
+  <GlintData>
+    <Item>
+	  <_EnableGlints value="1.0" />
+      <_Intensity value="1.500000" />
+      <_LocalLightIntensity value="0.500000" />
+      <_MovementIntensityMultiplier value="0.817500" />
+      <_HotspotsTileAmount value="0.040000" />
+      <_HotspotsIntensity value="1.500000" />
+      <_HotspotsDist value="12.000000" />
+      <_HotspotsThresholdMin value="0.857500" />
+      <_HotspotsThresholdMax value="0.760000" />
+      <_HotspotsMaskTileAmount value="0.087500" />
+      <_HotspotsMaskShiftAmount value="0.292500" />
+      <_HotspotsMaskLevelsMin value="0.540000" />
+      <_HotspotsMaskLevelsMax value="0.937500" />
+      <_MaskTileAmount value="1.935000" />
+      <_MaskShiftAmount value="0.400000" />
+      <_DecreaseWhenPerpindicular value="0.847000" />
+      <_ShadowIntensity value="0.000000" />
+      <_MaskTodShift value="5.000000" />
+      <_LayerData>
+        <Item>
+          <_GlintIntensity value="6.055000" />
+          <_FadeInStartDist value="0.450000" />
+          <_FadeInEndDist value="7.725000" />
+          <_FadeOutStartDist value="1.275000" />
+          <_FadeOutEndDist value="15.250000" />
+          <_AliasScale value="0.357500" />
+          <_TileAmount value="0.427500" />
+        </Item>
+        <Item>
+          <_GlintIntensity value="2.600000" />
+          <_FadeInStartDist value="1.725000" />
+          <_FadeInEndDist value="4.325000" />
+          <_FadeOutStartDist value="0.525000" />
+          <_FadeOutEndDist value="20.825000" />
+          <_AliasScale value="0.377500" />
+          <_TileAmount value="0.247500" />
+        </Item>
+      </_LayerData>
+    </Item>
+    <Item>
+	  <_EnableGlints value="1.0" />
+      <_Intensity value="1.000000" />
+      <_LocalLightIntensity value="0.100000" />
+      <_MovementIntensityMultiplier value="0.817500" />
+      <_HotspotsTileAmount value="0.040000" />
+      <_HotspotsIntensity value="1.500000" />
+      <_HotspotsDist value="12.000000" />
+      <_HotspotsThresholdMin value="0.857500" />
+      <_HotspotsThresholdMax value="0.760000" />
+      <_HotspotsMaskTileAmount value="0.087500" />
+      <_HotspotsMaskShiftAmount value="0.292500" />
+      <_HotspotsMaskLevelsMin value="0.540000" />
+      <_HotspotsMaskLevelsMax value="0.937500" />
+      <_MaskTileAmount value="1.935000" />
+      <_MaskShiftAmount value="0.400000" />
+      <_DecreaseWhenPerpindicular value="0.847000" />
+      <_ShadowIntensity value="0.000000" />
+      <_MaskTodShift value="5.000000" />
+      <_LayerData>
+        <Item>
+          <_GlintIntensity value="3.002500" />
+          <_FadeInStartDist value="0.450000" />
+          <_FadeInEndDist value="7.725000" />
+          <_FadeOutStartDist value="1.275000" />
+          <_FadeOutEndDist value="15.250000" />
+          <_AliasScale value="0.357500" />
+          <_TileAmount value="0.427500" />
+        </Item>
+        <Item>
+          <_GlintIntensity value="2.295000" />
+          <_FadeInStartDist value="1.725000" />
+          <_FadeInEndDist value="4.325000" />
+          <_FadeOutStartDist value="0.525000" />
+          <_FadeOutEndDist value="20.825000" />
+          <_AliasScale value="0.377500" />
+          <_TileAmount value="0.247500" />
+        </Item>
+      </_LayerData>
+    </Item>
+  </GlintData>
+</CSnowGlints>

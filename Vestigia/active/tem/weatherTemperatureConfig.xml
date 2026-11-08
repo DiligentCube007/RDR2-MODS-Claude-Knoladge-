@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeatherTemperature>
+  <TemperatureSamples content="float_array">
+    9.200000	
+    8.200000	
+    7.100000	
+    6.700000	
+    6.000000	
+    5.700000	
+    5.300000	
+    5.900000	
+    7.000000	
+    8.799999	
+    10.000000	
+    12.200001	
+    14.299999	
+    16.200001	
+    17.400000	
+    18.199998	
+    18.400001	
+    17.500000	
+    16.400000	
+    15.600000	
+    14.000000	
+    13.000000	
+    11.900000	
+    10.400000	
+  </TemperatureSamples>
+  <Seasons>
+    <Item>
+      <TemperatureTarget value="0.000000" />
+      <TemperatureFlatten value="0.000000" />
+      <TemperatureOffset value="0.000000" />
+    </Item>
+  </Seasons>
+  <AltitudeRange>
+    <RangeStart value="-100.000000" />
+    <RangeEnd value="2000.000000" />
+    <PowerCurve value="0.500000" />
+    <TargetAtStart value="45.000000" />
+    <TargetAtEnd value="-62.000000" />
+    <FlattenAtStart value="0.500000" />
+    <FlattenAtEnd value="-0.500000" />
+    <OffsetAtStart value="27.000000" />
+    <OffsetAtEnd value="-80.000000" />
+  </AltitudeRange>
+  <HeatSourceConfig>
+    <SmallConfig>
+      <TemperatureAtOneMeter value="10.000000" />
+      <MaxDistance value="5.000000" />
+      <MaxTemperature value="20.000000" />
+    </SmallConfig>
+    <MediumConfig>
+      <TemperatureAtOneMeter value="20.000000" />
+      <MaxDistance value="10.000000" />
+      <MaxTemperature value="30.000000" />
+    </MediumConfig>
+    <LargeConfig>
+      <TemperatureAtOneMeter value="300.000000" />
+      <MaxDistance value="25.000000" />
+      <MaxTemperature value="500.000000" />
+    </LargeConfig>
+    <SmallToMediumStrengthTransitionStart value="0.100000" />
+    <SmallToMediumStrengthTransitionEnd value="0.600000" />
+    <MediumToLargeStrengthTransitionStart value="0.600000" />
+    <MediumToLargeStrengthTransitionEnd value="1.000000" />
+  </HeatSourceConfig>
+</CWeatherTemperature>

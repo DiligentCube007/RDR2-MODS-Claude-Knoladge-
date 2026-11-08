@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedBreathingTypes>
+	<BreatheSettings>
+		<Item>
+			<Name>Human</Name>
+			<MinBreathsPerMinuteAtZeroExertion value="12.000000" />
+			<MaxBreathsPerMinuteAtZeroExertion value="60.000000" />
+			<MinBreathsPerMinuteAtFullExertion value="20.00000" />
+			<MaxBreathsPerMinuteAtFullExertion value="30.000000" />
+			<TiredBpm value="27.000000" />
+			<TimeToMaxBreathRateAtZeroFatigueMs value="30" />
+			<TimeToMaxBreathRateAtFullFatigueMs value="15" />
+			<TimeToMinBreathRateAtZeroFatigueMs value="15" />
+			<TimeToMinBreathRateAtFullFatigueMs value="30" />
+		</Item>
+		<Item>
+			<Name>Animal_Medium</Name>
+			<MinBreathsPerMinuteAtZeroExertion value="20.000000" />
+			<MaxBreathsPerMinuteAtZeroExertion value="80.000000" />
+			<MinBreathsPerMinuteAtFullExertion value="40.00000" />
+			<MaxBreathsPerMinuteAtFullExertion value="60.000000" />
+			<TiredBpm value="50.000000" />
+			<TimeToMaxBreathRateAtZeroFatigueMs value="30" />
+			<TimeToMaxBreathRateAtFullFatigueMs value="15" />
+			<TimeToMinBreathRateAtZeroFatigueMs value="15" />
+			<TimeToMinBreathRateAtFullFatigueMs value="30" />
+		</Item>
+		<Item>
+			<Name>Animal_Large</Name>
+			<MinBreathsPerMinuteAtZeroExertion value="12.000000" />
+			<MaxBreathsPerMinuteAtZeroExertion value="20.000000" />
+			<MinBreathsPerMinuteAtFullExertion value="14.000000" />
+			<MaxBreathsPerMinuteAtFullExertion value="18.000000" />
+			<TiredBpm value="90.000000" />
+			<TimeToMaxBreathRateAtZeroFatigueMs value="60" />
+			<TimeToMaxBreathRateAtFullFatigueMs value="15" />
+			<TimeToMinBreathRateAtZeroFatigueMs value="15" />
+			<TimeToMinBreathRateAtFullFatigueMs value="20" />
+		</Item>
+		<Item>
+			<Name>Horse</Name>
+			<MinBreathsPerMinuteAtZeroExertion value="8.000000" />
+			<MaxBreathsPerMinuteAtZeroExertion value="16.000000" />
+			<MinBreathsPerMinuteAtFullExertion value="25.000000" />
+			<MaxBreathsPerMinuteAtFullExertion value="80.000000" />
+			<TiredBpm value="100.000000" />
+			<TimeToMaxBreathRateAtZeroFatigueMs value="60" />
+			<TimeToMaxBreathRateAtFullFatigueMs value="15" />
+			<TimeToMinBreathRateAtZeroFatigueMs value="15" />
+			<TimeToMinBreathRateAtFullFatigueMs value="20" />
+		</Item>
+		<Item>
+			<Name>Dog</Name>
+			<MinBreathsPerMinuteAtZeroExertion value="120.000000" />
+			<MaxBreathsPerMinuteAtZeroExertion value="370.000000" />
+			<MinBreathsPerMinuteAtFullExertion value="90.000000" />
+			<MaxBreathsPerMinuteAtFullExertion value="200.000000" />
+			<TiredBpm value="300.000000" />
+			<TimeToMaxBreathRateAtZeroFatigueMs value="20" />
+			<TimeToMaxBreathRateAtFullFatigueMs value="15" />
+			<TimeToMinBreathRateAtZeroFatigueMs value="60" />
+			<TimeToMinBreathRateAtFullFatigueMs value="75" />
+		</Item>  
+	</BreatheSettings>
+ </CPedBreathingTypes>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PedEnvAccumulationManager>
+  <SnowAccumulationKeyFrames>
+    <Name />
+    <AccumKeyFrames>
+      <entries>
+        <Item>
+          <vTime x="0.000000" y="0.000000" z="0.000000" w="0.000000" />
+          <vValue x="0.000000" y="0.000000" z="0.000000" w="0.000000" />
+        </Item>
+        <Item>
+          <vTime x="0.067864" y="14.735294" z="0.000000" w="0.000000" />
+          <vValue x="0.017241" y="0.000000" z="0.000000" w="0.000000" />
+        </Item>
+        <Item>
+          <vTime x="0.263473" y="5.112245" z="0.000000" w="0.000000" />
+          <vValue x="0.137931" y="0.000000" z="0.000000" w="0.000000" />
+        </Item>
+        <Item>
+          <vTime x="0.467105" y="4.910821" z="0.000000" w="0.000000" />
+          <vValue x="0.405172" y="0.000000" z="0.000000" w="0.000000" />
+        </Item>
+        <Item>
+          <vTime x="0.654605" y="5.333334" z="0.000000" w="0.000000" />
+          <vValue x="0.698276" y="0.000000" z="0.000000" w="0.000000" />
+        </Item>
+        <Item>
+          <vTime x="0.804276" y="6.681320" z="0.000000" w="0.000000" />
+          <vValue x="0.918103" y="0.000000" z="0.000000" w="0.000000" />
+        </Item>
+        <Item>
+          <vTime x="1.000000" y="5.109235" z="0.000000" w="0.000000" />
+          <vValue x="1.000000" y="0.000000" z="0.000000" w="0.000000" />
+        </Item>
+      </entries>
+    </AccumKeyFrames>
+    <Color value="0xFFFFFFFF" />
+  </SnowAccumulationKeyFrames>
+  <fMinSnowMeltTemp value="0.00000" />
+  <fMaxSnowMeltTemp value="35.000000" />
+  <fMaxSnowMeltRate value="0.01000" />
+  <fMeltEvaporationRate value="0.100000" />
+</PedEnvAccumulationManager>

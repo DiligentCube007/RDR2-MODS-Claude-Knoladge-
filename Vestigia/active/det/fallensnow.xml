@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CFallenSnowData>
+  <Enabled value="true" />
+  <SeasonChannelData>
+    <Item>
+      <SnowIntensity value="1.000000" />
+      <SnowWrap value="0.450000" />
+      <SnowSpecInt value="1.000000" />
+      <SnowRoughness value="1.000000" />
+      <SnowBumpScale value="0.100000" />
+      <SnowSharpness value="12.176000" />
+      <SnowNormalBlend value="0.000000" />
+      <SnowFadeStart value="180.000000" />
+      <SnowFadeEnd value="750.000000" />
+      <NoiseScale1 value="135.393005" />
+      <NoiseScale2 value="23.483999" />
+      <Threshold value="0.044000" />
+      <NoiseOff value="0" />
+      <Season>kSeasonWinter</Season>
+      <Channel>eFSC_TERRAIN</Channel>
+      <GrassGlobalUpNormalModifier value="-1.000000" />
+    </Item>
+    <Item>
+      <SnowIntensity value="1.000000" />
+      <SnowWrap value="1.000000" />
+      <SnowSpecInt value="1.000000" />
+      <SnowRoughness value="1.000000" />
+      <SnowBumpScale value="0.100000" />
+      <SnowSharpness value="8.032000" />
+      <SnowNormalBlend value="0.000000" />
+      <SnowFadeStart value="260.000000" />
+      <SnowFadeEnd value="750.000000" />
+      <NoiseScale1 value="135.393005" />
+      <NoiseScale2 value="23.483999" />
+      <Threshold value="0.323000" />
+      <NoiseOff value="0" />
+      <Season>kSeasonWinter</Season>
+      <Channel>eFSC_PROP</Channel>
+      <GrassGlobalUpNormalModifier value="0.199000" />
+    </Item>
+    <Item>
+      <SnowIntensity value="0.545000" />
+      <SnowWrap value="1.000000" />
+      <SnowSpecInt value="1.000000" />
+      <SnowRoughness value="1.000000" />
+      <SnowBumpScale value="1.000000" />
+      <SnowSharpness value="1.000000" />
+      <SnowNormalBlend value="0.992500" />
+      <SnowFadeStart value="1.000000" />
+      <SnowFadeEnd value="1.000000" />
+      <NoiseScale1 value="1.000000" />
+      <NoiseScale2 value="1.000000" />
+      <Threshold value="0.000000" />
+      <NoiseOff value="1" />
+      <Season>kSeasonSpring</Season>
+      <Channel>eFSC_TERRAIN</Channel>
+      <GrassGlobalUpNormalModifier value="-1.000000" />
+    </Item>
+    <Item>
+      <SnowIntensity value="0.590000" />
+      <SnowWrap value="1.000000" />
+      <SnowSpecInt value="1.000000" />
+      <SnowRoughness value="1.000000" />
+      <SnowBumpScale value="1.000000" />
+      <SnowSharpness value="1.000000" />
+      <SnowNormalBlend value="0.521000" />
+      <SnowFadeStart value="1.000000" />
+      <SnowFadeEnd value="1.000000" />
+      <NoiseScale1 value="1.000000" />
+      <NoiseScale2 value="1.000000" />
+      <Threshold value="0.000000" />
+      <NoiseOff value="1" />
+      <Season>kSeasonSpring</Season>
+      <Channel>eFSC_PROP</Channel>
+      <GrassGlobalUpNormalModifier value="-1.000000" />
+    </Item>
+    <Item>
+      <SnowIntensity value="1.000000" />
+      <SnowWrap value="0.450000" />
+      <SnowSpecInt value="1.000000" />
+      <SnowRoughness value="1.000000" />
+      <SnowBumpScale value="0.100000" />
+      <SnowSharpness value="12.176000" />
+      <SnowNormalBlend value="0.000000" />
+      <SnowFadeStart value="180.000000" />
+      <SnowFadeEnd value="210.000000" />
+      <NoiseScale1 value="135.393005" />
+      <NoiseScale2 value="23.483999" />
+      <Threshold value="0.044000" />
+      <NoiseOff value="0" />
+      <Season>kSeasonSummer</Season>
+      <Channel>eFSC_TERRAIN</Channel>
+      <GrassGlobalUpNormalModifier value="-1.000000" />
+    </Item>
+    <Item>
+      <SnowIntensity value="1.000000" />
+      <SnowWrap value="1.000000" />
+      <SnowSpecInt value="1.000000" />
+      <SnowRoughness value="1.000000" />
+      <SnowBumpScale value="0.100000" />
+      <SnowSharpness value="8.032000" />
+      <SnowNormalBlend value="0.000000" />
+      <SnowFadeStart value="260.000000" />
+      <SnowFadeEnd value="290.000000" />
+      <NoiseScale1 value="135.393005" />
+      <NoiseScale2 value="23.483999" />
+      <Threshold value="0.109000" />
+      <NoiseOff value="0" />
+      <Season>kSeasonSummer</Season>
+      <Channel>eFSC_PROP</Channel>
+      <GrassGlobalUpNormalModifier value="0.199000" />
+    </Item>
+    <Item>
+      <SnowIntensity value="1.000000" />
+      <SnowWrap value="0.400000" />
+      <SnowSpecInt value="1.000000" />
+      <SnowRoughness value="1.000000" />
+      <SnowBumpScale value="1.246000" />
+      <SnowSharpness value="2.016000" />
+      <SnowNormalBlend value="0.521000" />
+      <SnowFadeStart value="129.792007" />
+      <SnowFadeEnd value="159.792007" />
+      <NoiseScale1 value="50.000000" />
+      <NoiseScale2 value="150.000000" />
+      <Threshold value="0.000000" />
+      <NoiseOff value="1" />
+      <Season>kSeasonFall</Season>
+      <Channel>eFSC_TERRAIN</Channel>
+      <GrassGlobalUpNormalModifier value="-1.000000" />
+    </Item>
+    <Item>
+      <SnowIntensity value="1.000000" />
+      <SnowWrap value="0.400000" />
+      <SnowSpecInt value="1.000000" />
+      <SnowRoughness value="1.000000" />
+      <SnowBumpScale value="1.246000" />
+      <SnowSharpness value="2.016000" />
+      <SnowNormalBlend value="0.521000" />
+      <SnowFadeStart value="129.792007" />
+      <SnowFadeEnd value="159.792007" />
+      <NoiseScale1 value="50.000000" />
+      <NoiseScale2 value="150.000000" />
+      <Threshold value="0.000000" />
+      <NoiseOff value="1" />
+      <Season>kSeasonFall</Season>
+      <Channel>eFSC_PROP</Channel>
+      <GrassGlobalUpNormalModifier value="-1.000000" />
+    </Item>
+  </SeasonChannelData>
+  <SnowDiffuseMapName>snowdiffusemap</SnowDiffuseMapName>
+  <SnowNormalMapName>snownormalmap</SnowNormalMapName>
+</CFallenSnowData>
