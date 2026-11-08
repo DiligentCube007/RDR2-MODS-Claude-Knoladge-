@@ -1,0 +1,6 @@
+Changes in weather.xml (inside each weather's own section, NOT the <Variations>):
+
+DRIZZLE: <Fog value="1.000000"/>  ->  <Fog value="0.000000"/>
+HURRICANE: <Fog value="1.000000"/>  ->  <Fog value="0.000000"/>
+RAIN: <Fog value="1.000000"/>  ->  <Fog value="0.000000"/>
+THUNDERSTORM: <Fog value="1.000000"/>  ->  <Fog value="0.000000"/>

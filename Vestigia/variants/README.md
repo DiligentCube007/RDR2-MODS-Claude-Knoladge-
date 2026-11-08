@@ -24,6 +24,7 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | 10 - heavy rain light glow | current* / less glow toward sun and lamps (Rain, Shower, Thunderstorm, Hurricane) | 4 `*_render_drop.xml` | `active/ess` + `active/str` |
 | 11 - rain spawn area (mist test) | current* / larger spawn area (TEST for the vertical mist plane) | 4 `*_emitter_drop.xml` | `active/ess` + `active/str` |
 | 12 - ground splash mist (test + fix) | current* / splashes OFF (test) / splashes subtle (fix) | 5 `*_render_ground.xml` | `active/ess` + `active/str` |
+| **13 - rain fog (mist plane fix)** | current* / rain fog switch off (vanilla) / + vanilla fog shapes | `weather.xml` | `active/ess` (+ Rain Sheets add-on folder if installed) |
 
 \* = installed now.
 

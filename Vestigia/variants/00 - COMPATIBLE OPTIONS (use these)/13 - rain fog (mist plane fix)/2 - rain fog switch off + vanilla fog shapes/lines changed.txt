@@ -1,0 +1,11 @@
+Changes in weather.xml (inside each weather's own section, NOT the <Variations>):
+
+CLOUDS: <LocalizedDensityMap>localized_density_map_RainDense  ->  localized_density_map_Rain
+DRIZZLE: <Fog value="1.000000"/>  ->  <Fog value="0.000000"/>
+DRIZZLE: <LocalizedDensityMap>localized_density_map_Rain  ->  localized_density_map_RainDense
+HURRICANE: <Fog value="1.000000"/>  ->  <Fog value="0.000000"/>
+OVERCAST: <LocalizedDensityMap>localized_density_map_Rain  ->  localized_density_map_default
+OVERCASTDARK: <LocalizedDensityMap>localized_density_map_RainDense  ->  localized_density_map_overcastDark
+RAIN: <Fog value="1.000000"/>  ->  <Fog value="0.000000"/>
+THUNDER: <LocalizedDensityMap>localized_density_map_RainDense  ->  localized_density_map_Rain
+THUNDERSTORM: <Fog value="1.000000"/>  ->  <Fog value="0.000000"/>
