@@ -1,0 +1,6 @@
+Lines this option changes in visualsettings.dat (setting   current -> new):
+
+grass.normalVariationIntensity                       2.0  ->  0.3
+grass.normalVariationScale                           2.0  ->  75.0
+misc.AlphaScaleExpGrass                                1  ->  2
+misc.AlphaScaleExpGrassBatch                           1  ->  0

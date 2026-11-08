@@ -1,0 +1,9 @@
+Lines this option changes in visualsettings.dat (setting   current -> new):
+
+sharpen.intensity                                   0.15  ->  0.1
+temporalaa.convergenceTime                          0.15  ->  0.2
+temporalaa.convergenceTimeFar                        1.0  ->  0.2
+temporalaa.convergenceTimeForwardSpeedMax            0.1  ->  0.2
+temporalaa.responsiveConvergenceTime                 0.1  ->  0.2
+temporalaa.waterConvergenceTime                     0.05  ->  0.2
+temporalaa.waterConvergenceTimeFar                  0.35  ->  0.2

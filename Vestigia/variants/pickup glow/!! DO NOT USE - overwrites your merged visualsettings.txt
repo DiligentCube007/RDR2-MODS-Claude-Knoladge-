@@ -1,0 +1,3 @@
+These visualsettings.dat files are based on Vestigia's ORIGINAL file.
+Copying one into active/ess removes the RW grass sway and all your own tuning.
+Use the same option from:  00 - COMPATIBLE OPTIONS (use these)/ instead.

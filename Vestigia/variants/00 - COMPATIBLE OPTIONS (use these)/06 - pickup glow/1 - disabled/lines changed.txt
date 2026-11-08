@@ -1,0 +1,6 @@
+Lines this option changes in visualsettings.dat (setting   current -> new):
+
+pickup.light.color.b                                 1.0  ->  0.0
+pickup.light.color.g                                 1.0  ->  0.0
+pickup.light.color.r                                 1.0  ->  0.0
+pickup.light.intensity.towards                     600.0  ->  0.0

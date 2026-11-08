@@ -1,0 +1,2 @@
+These weatherGraph.xml files contain a typo (a second SUNNY node instead of SUNNYSEATTLE).
+Use:  00 - COMPATIBLE OPTIONS (use these)/02 - weather speed (typo fixed)

@@ -1,0 +1,8 @@
+Lines this option changes in visualsettings.dat (setting   current -> new):
+
+temporalaa.convergenceTime                          0.15  ->  0.075
+temporalaa.convergenceTimeDepthMax                 250.0  ->  35.0
+temporalaa.convergenceTimeDepthMin                   0.0  ->  35.0
+temporalaa.convergenceTimeFar                        1.0  ->  0.08
+temporalaa.convergenceTimeForward                    0.2  ->  0.05
+temporalaa.convergenceTimeForwardSpeedMax            0.1  ->  0.005

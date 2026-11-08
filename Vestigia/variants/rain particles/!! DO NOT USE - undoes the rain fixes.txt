@@ -1,0 +1,4 @@
+DO NOT USE these with the current setup.
+All options here are Vestigia's ORIGINAL rain files. Copying them into active/ undoes:
+the Rain Particles Fix merge, the Shower fix, the mist-popping fix and the visibility tuning.
+To change how visible the rain is, use:  00 - COMPATIBLE OPTIONS (use these)/01 - rain visibility

@@ -1,0 +1,12 @@
+Lines this option changes in visualsettings.dat (setting   current -> new):
+
+Tonemapping.dark.filmic.E                            0.0  ->  0.02
+sky.MoonIntensity                                    0.1  ->  0.01
+stars.cloud.intensity                               0.08  ->  0.008
+stars.cloud.intensityGalaxy                         0.08  ->  0.008
+stars.constellations.intensity                      0.01  ->  0.001
+stars.constellations.intensityGalaxy                0.05  ->  0.005
+stars.dense.intensity                                1.2  ->  0.12
+stars.dense.intensityGalaxy                          1.7  ->  0.12
+stars.sparse.intensity                              24.0  ->  2.4
+stars.sparse.intensityGalaxy                         4.0  ->  0.2

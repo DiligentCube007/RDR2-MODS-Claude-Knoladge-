@@ -1,0 +1,2 @@
+Both w_shower.xml files here have Vestigia's original deep-blue rain haze.
+Copying one into active/ess undoes the "less blue haze in rain" fix.

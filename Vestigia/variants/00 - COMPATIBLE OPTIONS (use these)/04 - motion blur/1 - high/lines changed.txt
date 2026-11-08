@@ -1,0 +1,5 @@
+Lines this option changes in visualsettings.dat (setting   current -> new):
+
+defaultmotionblur.fpv.strength                      0.25  ->  0.5
+defaultmotionblur.strength                          0.25  ->  0.5
+motionblur.MassiveBlurThreshold                      300  ->  150

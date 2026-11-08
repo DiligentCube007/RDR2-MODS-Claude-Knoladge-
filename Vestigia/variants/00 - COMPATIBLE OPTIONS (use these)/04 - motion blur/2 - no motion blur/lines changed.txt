@@ -1,0 +1,7 @@
+Lines this option changes in visualsettings.dat (setting   current -> new):
+
+defaultmotionblur.enabled                              1  ->  0
+defaultmotionblur.fpv.enabled                          1  ->  0
+defaultmotionblur.fpv.strength                      0.25  ->  0
+defaultmotionblur.strength                          0.25  ->  0
+motionblur.MassiveBlurThreshold                      300  ->  99999
