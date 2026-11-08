@@ -1,0 +1,21 @@
+What this option changes (find the line in the file, change the value):
+
+File: Vestigia/active/ess/rainstorm_render_drop.xml
+   <translucency value="0.200000" />   ->   <translucency value="0.100000" />
+   <wrapLightingTerm value="0.300000" />   ->   <wrapLightingTerm value="0.150000" />
+   <localLightsMultiplier value="1.000000" />   ->   <localLightsMultiplier value="0.700000" />
+
+File: Vestigia/active/str/shower_render_drop.xml
+   <translucency value="0.200000" />   ->   <translucency value="0.100000" />
+   <wrapLightingTerm value="0.300000" />   ->   <wrapLightingTerm value="0.150000" />
+   <localLightsMultiplier value="1.000000" />   ->   <localLightsMultiplier value="0.700000" />
+
+File: Vestigia/active/ess/thunder_render_drop.xml
+   <translucency value="0.300000" />   ->   <translucency value="0.150000" />
+   <wrapLightingTerm value="0.300000" />   ->   <wrapLightingTerm value="0.150000" />
+   <localLightsMultiplier value="1.000000" />   ->   <localLightsMultiplier value="0.700000" />
+
+File: Vestigia/active/str/hurricane_render_drop.xml
+   <translucency value="0.300000" />   ->   <translucency value="0.150000" />
+   <wrapLightingTerm value="0.300000" />   ->   <wrapLightingTerm value="0.150000" />
+   <localLightsMultiplier value="1.000000" />   ->   <localLightsMultiplier value="0.700000" />

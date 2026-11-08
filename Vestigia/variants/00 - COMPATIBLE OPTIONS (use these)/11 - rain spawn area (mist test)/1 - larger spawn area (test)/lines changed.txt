@@ -1,0 +1,17 @@
+What this option changes (find the line in the file, change the value):
+
+File: Vestigia/active/ess/rainstorm_emitter_drop.xml
+   <boxCentreOffset x="-1.000000" y="6.000000" z="1.700000" />   ->   <boxCentreOffset x="0.000000" y="8.000000" z="4.000000" />
+   <boxSize x="10.000000" y="8.000000" z="15.000000" />   ->   <boxSize x="22.000000" y="20.000000" z="20.000000" />
+
+File: Vestigia/active/str/shower_emitter_drop.xml
+   <boxCentreOffset x="-1.000000" y="6.000000" z="1.700000" />   ->   <boxCentreOffset x="0.000000" y="8.000000" z="4.000000" />
+   <boxSize x="10.000000" y="8.000000" z="15.000000" />   ->   <boxSize x="22.000000" y="20.000000" z="20.000000" />
+
+File: Vestigia/active/ess/thunder_emitter_drop.xml
+   <boxCentreOffset x="-1.000000" y="6.000000" z="1.700000" />   ->   <boxCentreOffset x="0.000000" y="8.000000" z="4.000000" />
+   <boxSize x="10.000000" y="8.000000" z="15.000000" />   ->   <boxSize x="22.000000" y="20.000000" z="20.000000" />
+
+File: Vestigia/active/str/hurricane_emitter_drop.xml
+   <boxCentreOffset x="-1.000000" y="6.000000" z="1.700000" />   ->   <boxCentreOffset x="0.000000" y="8.000000" z="4.000000" />
+   <boxSize x="10.000000" y="8.000000" z="15.000000" />   ->   <boxSize x="22.000000" y="20.000000" z="20.000000" />

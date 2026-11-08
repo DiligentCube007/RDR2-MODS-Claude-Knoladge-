@@ -20,12 +20,18 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | 06 - pickup glow | current* / disabled | `visualsettings.dat` | `active/ess` |
 | 07 - grass texturing | current* / vanilla grass | `visualsettings.dat` | `active/ess` |
 | 08 - rain particles (full set) | current* / Rain Particles Fix look + all fixes / original combine (no later tweaks) | 23 rain particle files | `active/ess` + `active/str` |
+| 09 - drizzle visibility | current* / more visible (same size and amount) | `drizzle_render_drop.xml` | `active/ess` |
+| 10 - heavy rain light glow | current* / less glow toward sun and lamps (Rain, Shower, Thunderstorm, Hurricane) | 4 `*_render_drop.xml` | `active/ess` + `active/str` |
+| 11 - rain spawn area (mist test) | current* / larger spawn area (TEST for the vertical mist plane) | 4 `*_emitter_drop.xml` | `active/ess` + `active/str` |
 
 \* = installed now.
 
 All `visualsettings.dat` options are **your merged file** (Vestigia + RW grass sway + your tuning) with only
 that option's lines changed. They all replace the same file, so to **combine** two (for example TAA and
 motion blur), copy one, then edit the lines listed in the other's `lines changed.txt` with Notepad.
+
+Options 01, 08, 09 and 10 share some files. If you combine them, copy 01 or 08 first,
+then apply 09 and 10 by hand with their `lines changed.txt` (exact old and new values listed).
 
 ## Other folders: Vestigia's own original variants
 Kept for reference. Folders with a `!! DO NOT USE` note would undo the fixes or overwrite your merged

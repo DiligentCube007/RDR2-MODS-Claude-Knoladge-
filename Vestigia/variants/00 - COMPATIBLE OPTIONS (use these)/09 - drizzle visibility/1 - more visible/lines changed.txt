@@ -1,0 +1,7 @@
+What this option changes (find the line in the file, change the value):
+
+File: Vestigia/active/ess/drizzle_render_drop.xml
+   <colour x="0.300000" y="0.300000" z="0.300000" w="1.000000" />   ->   <colour x="0.450000" y="0.450000" z="0.450000" w="1.250000" />
+   <directionalAndAmbientMultiplier value="0.850000" />   ->   <directionalAndAmbientMultiplier value="1.000000" />
+   <backgroundDistortionVisibilityPercentage value="1.000000" />   ->   <backgroundDistortionVisibilityPercentage value="1.400000" />
+   <backgroundDistortionAlphaBooster value="1.000000" />   ->   <backgroundDistortionAlphaBooster value="1.400000" />
