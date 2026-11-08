@@ -34,7 +34,7 @@
   <directionalAndAmbientMultiplier value="1.000000" />
   <localLightsMultiplier value="1.000000" />
   <directionalLightShadowAmount value="1.000000" />
-  <translucency value="0.900000" />
+  <translucency value="0.500000" />
   <wrapLightingTerm value="0.000000" />
   <lightFalloffBiasModifier value="0.100000" />
   <dofAlphaOutputMultiplier value="1.000000" />

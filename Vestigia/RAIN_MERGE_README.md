@@ -101,3 +101,33 @@ Both mods now use **your hand-tuned merged file**. It has Vestigia's settings pl
 and RW's fog-volume wind lines, and blended values for drying speed, stars, the sky far clip, puddle ripples,
 dirt wash, snow melt, vehicle drying and temperature colour correction. The same file is in Vestigia and
 RW Grass Sway, so load order doesn't matter. The originals are in `_backup_original_rain_files/`.
+
+---
+
+# Update 3: rain visibility + rain haze colour
+
+## Rain too visible toward the sky or lights, too faint against the ground
+The Rain Particles Fix drops were drawn as 6% their own colour and 94% "bending the background"
+(refraction). Bent background only shows where there's brightness behind the drop, like sky or lamps.
+A translucency/wrap-lighting glow also made drops light up when you face a light source.
+
+| Setting | Rain / Shower | Thunderstorm / Hurricane | Drizzle |
+|---|---|---|---|
+| `particleColorPercentage` (drop's own colour) | 0.06 → **0.20** | 0.06 → **0.20** | 0.70 (unchanged) |
+| `backgroundDistortionVisibilityPercentage` / `AlphaBooster` | 2.4 → **1.6** | 2.2 → **1.5** | unchanged |
+| `translucency` (glow toward lights) | 0.3 → **0.2** | 0.5 → **0.3** | 0.9 → **0.5** |
+| `wrapLightingTerm` | unchanged | 0.5 → **0.3** | unchanged |
+| `localLightsMultiplier` | 1.2 → **1.0** | 1.2 → **1.0** | unchanged |
+
+## Haze looks too blue in rain (even at 25 °C)
+Vestigia's timecycles set the haze/fog fill light (`local_atmosphere_fill_ambient_light_color`) to a deep blue
+(0.006, 0.005, 0.19) for almost every weather. Temperature can't warm it, because Vestigia sets
+`postfx_weather_color_correction` to 0 in every timecycle. That also means the
+`WeatherColorCorrection.Temperature` values in `visualsettings.dat` currently have no effect.
+
+For the **rainy weathers only** (Drizzle, Rain, Shower and Hurricane, including their story variants),
+the haze fill colour is now **50% less blue** (moved halfway toward neutral grey), in the GLOBAL region.
+The URBAN region was already neutral. At noon it goes from 0.006/0.005/0.188 to 0.036/0.035/0.127. Clear,
+cloudy, foggy and snowy weathers keep Vestigia's look, so the haze warms up gradually as the weather turns rainy.
+
+The previous versions of all these files are in `_backup_original_rain_files/pre_visibility_and_haze/`.
