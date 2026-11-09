@@ -164,3 +164,10 @@ After the fog-noise fix switched the game's localized fog back on, Drizzle still
 `weather.xml` gives DRIZZLE the Fog switch on (1) and the `localized_density_map_Rain` fog shape. Vanilla uses
 Fog 0 and `RainDense`, which Shower already matched. **Installed:** DRIZZLE now uses the vanilla values, in both
 `active/ess/weather.xml` and the Rain Sheets add-on's `weather.xml` (option 20 has the revert).
+
+# Update 7: Drizzle fog structure like vanilla
+Drizzle still showed the plane after the fog-noise fix and the weather.xml fix. **Installed:** every fog-shape
+setting of Drizzle now uses its vanilla value in both the wilderness and town regions: fog height/falloff, fog volumes,
+rain haze, fog shadows, fog noise, localized fog, fog wind and the cloud layer structure. Vestigia's colours and lighting
+are kept. Option 21 has the alternatives, including a full-vanilla Drizzle as a guaranteed fallback. Options 16–18 no
+longer include Drizzle.

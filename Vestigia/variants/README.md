@@ -28,6 +28,7 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | 18 - fog noise off (smooth volumetric) | current* / noise off (perfectly smooth) / very faint pattern | 13 rain `w_*.xml` timecycles | `active/ess` |
 | 19 - rain fog closer to vanilla (25% or 50%) | Rain only: fog thickness/height/falloff 25% or 50% toward vanilla (also with 16 wind) | `w_rain.xml` | `active/ess` |
 | **20 - drizzle fog plane fix (weather.xml)** | previous / drizzle like vanilla* (Fog switch 0 + RainDense fog shape) | `weather.xml` | `active/ess` (+ Rain Sheets add-on) |
+| **21 - drizzle fog structure like vanilla** | previous / fog structure / fog + cloud structure* / full vanilla drizzle (removes the remaining Drizzle plane) | `w_drizzle.xml` | `active/ess` |
 | **99 - TROUBLESHOOTING - find the mist plane** | test install.xml files that switch off one part of Vestigia at a time | `install.xml` | `lml/Vestigia/` (put the original back after) |
 
 \* = installed now.

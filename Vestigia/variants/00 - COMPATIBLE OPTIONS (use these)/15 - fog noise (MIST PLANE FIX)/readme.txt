@@ -28,3 +28,5 @@ Option 1 changes:
   w_shower_guama.xml: 10 settings
   w_shower_mp_pred.xml: 9 settings
   w_sleet.xml: 9 settings
+
+NOTE: w_drizzle.xml in options 1 and 2 also contains the Drizzle fog structure fix (option 21).

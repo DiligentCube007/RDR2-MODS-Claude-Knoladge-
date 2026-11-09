@@ -13,7 +13,7 @@ The voxel noise is the pattern INSIDE the volumetric fog: it decides how thick t
 0 - current (installed) = undo.
 
 Only local_atmosphere_voxel_noise_min / _max change (wilderness region). Nothing else.
-HOW: copy all 13 files from ONE option folder to  Vestigia/active/ess  (replace).
+HOW: copy all 12 files from ONE option folder to  Vestigia/active/ess  (replace).
 Options 16, 17 and 18 change the same files - use only one of them.
 
 Option 1 values:
@@ -45,3 +45,5 @@ Option 2 values:
    w_thunderstorm               noise 0.413..0.738  ->  0.511..0.641
    w_thunderstorm_mp_pred       noise 0.461..0.738  ->  0.534..0.641
    w_thunderstorm_nativeson3    noise 0.413..0.738  ->  0.511..0.641
+
+NOTE: Drizzle is NOT included - it has its own fix (option 21, fog structure like vanilla).

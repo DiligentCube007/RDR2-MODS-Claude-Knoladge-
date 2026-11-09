@@ -241,22 +241,22 @@
       <sky_stars_dense_galaxy_light_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</sky_stars_dense_galaxy_light_mult>
       <sky_stars_sparse_galaxy_light_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</sky_stars_sparse_galaxy_light_mult>
       <local_atmosphere_fog_density> 0.0015 0.0015 0.0015 0.0011 0.0011 0.0015 0.0015 0.0015 0.0015 0.0011 0.0011 0.0011 0.0015</local_atmosphere_fog_density>
-      <local_atmosphere_fog_height> 50.0000 50.0000 50.0000 50.0000 5.0000 500.0000 500.0000 500.0000 500.0000 500.0000 50.0000 50.0000 50.0000</local_atmosphere_fog_height>
-      <local_atmosphere_fog_falloff> 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000</local_atmosphere_fog_falloff>
+      <local_atmosphere_fog_height> 500.0000 500.0000 500.0000 500.0000 500.0000 0.0000 500.0000 500.0000 300.0000 500.0000 500.0000 500.0000 500.0000</local_atmosphere_fog_height>
+      <local_atmosphere_fog_falloff> 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000</local_atmosphere_fog_falloff>
       <local_atmosphere_localized_fog_density_mult> 0.2000 0.1498 0.1498 0.2000 0.1000 0.1498 0.2000 0.2000 0.2996 0.2500 0.1000 0.2000 0.1000</local_atmosphere_localized_fog_density_mult>
       <local_atmosphere_localized_fog_density_mult_raymarch> 0.1000 0.1000 0.1000 0.1000 0.2996 0.1000 0.2996 0.1000 0.1498 0.1000 0.2996 0.1000 0.1000</local_atmosphere_localized_fog_density_mult_raymarch>
       <local_atmosphere_localized_fog_noise_bounds_x> -1.0000 -1.0000 -1.0000 0.0000 -1.0000 -1.0000 0.3997 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000</local_atmosphere_localized_fog_noise_bounds_x>
       <local_atmosphere_localized_fog_noise_bounds_y> 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.5977 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_localized_fog_noise_bounds_y>
       <local_atmosphere_localized_fog_wind_velocity> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_localized_fog_wind_velocity>
       <local_atmosphere_localized_fog_height_offset> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_localized_fog_height_offset>
-       <local_atmosphere_fog_volume_dust_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_dust_density_mult>
-      <local_atmosphere_fog_volume_smoke_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_smoke_density_mult>
-      <local_atmosphere_fog_volume_mist_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_mist_density_mult>
-      <local_atmosphere_fog_volume_pollution_density_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_fog_volume_pollution_density_mult>
+       <local_atmosphere_fog_volume_dust_density_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_fog_volume_dust_density_mult>
+      <local_atmosphere_fog_volume_smoke_density_mult> 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000</local_atmosphere_fog_volume_smoke_density_mult>
+      <local_atmosphere_fog_volume_mist_density_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_fog_volume_mist_density_mult>
+      <local_atmosphere_fog_volume_pollution_density_mult> 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996</local_atmosphere_fog_volume_pollution_density_mult>
       <local_atmosphere_fog_volume_snow_density_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_fog_volume_snow_density_mult>
-      <local_atmosphere_fog_volume_waterfall_density_mult> 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000</local_atmosphere_fog_volume_waterfall_density_mult>
-      <local_atmosphere_rain_density_falloff> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_rain_density_falloff>
-      <local_atmosphere_rain_threshold> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_rain_threshold>
+      <local_atmosphere_fog_volume_waterfall_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_waterfall_density_mult>
+      <local_atmosphere_rain_density_falloff> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0050 0.0100 0.0100 0.0000 0.0100 0.0000 0.0000 0.0000</local_atmosphere_rain_density_falloff>
+      <local_atmosphere_rain_threshold> 0.0000 0.0000 0.0000 0.0000 0.0000 0.2000 0.5000 0.2996 0.0000 0.5000 0.0000 0.0000 0.0000</local_atmosphere_rain_threshold>
       <local_atmosphere_voxel_noise_min> 0.4446 0.4446 0.5000 0.5000 0.4290 0.5059 0.7139 0.5508 0.5479 0.5430 0.5000 0.5000 0.5000</local_atmosphere_voxel_noise_min>
       <local_atmosphere_voxel_noise_max> 0.6509 0.6509 0.5977 0.6509 0.6309 0.6768 0.7466 0.7520 0.7642 0.6768 0.5977 0.6519 0.5977</local_atmosphere_voxel_noise_max>
       <local_atmosphere_voxel_noise_scale_mult_z> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_voxel_noise_scale_mult_z>
@@ -266,77 +266,77 @@
 <far_haze_start> 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000</far_haze_start>
       <far_haze_power> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</far_haze_power>
       <far_haze_ambient_intensity> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</far_haze_ambient_intensity>
-      <local_atmosphere_cloud_density> 1.3996 1.3996 1.3000 0.7000 0.7996 1.3996 1.3996 1.3996 1.3996 1.3996 1.3996 1.3996 1.3996</local_atmosphere_cloud_density>
-     <local_atmosphere_cloud_horizontal_shape_0_y> 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996</local_atmosphere_cloud_horizontal_shape_0_y>
-      <local_atmosphere_cloud_horizontal_shape_0_z> 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578</local_atmosphere_cloud_horizontal_shape_0_z>
-      <local_atmosphere_cloud_horizontal_shape_1_y> 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996</local_atmosphere_cloud_horizontal_shape_1_y>
-      <local_atmosphere_cloud_horizontal_shape_1_z> 0.9996 0.9996 0.9996 0.9996 0.9996 0.9996 0.9996 0.9996 0.9996 0.9996 0.9996 0.9996 0.9996</local_atmosphere_cloud_horizontal_shape_1_z>
+      <local_atmosphere_cloud_density> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_density>
+     <local_atmosphere_cloud_horizontal_shape_0_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_0_y>
+      <local_atmosphere_cloud_horizontal_shape_0_z> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_0_z>
+      <local_atmosphere_cloud_horizontal_shape_1_y> 0.0500 0.0500 0.0500 0.0000 0.0500 0.0000 0.0500 0.0500 0.0500 0.0500 0.0500 0.0500 0.0500</local_atmosphere_cloud_horizontal_shape_1_y>
+      <local_atmosphere_cloud_horizontal_shape_1_z> 1.2979 1.2979 1.2979 0.9976 1.2979 1.2979 1.2979 1.2979 1.2979 1.2979 1.2979 1.2979 1.2979</local_atmosphere_cloud_horizontal_shape_1_z>
      <local_atmosphere_cloud_horizontal_shape_octave_0_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_octave_0_x>
       <local_atmosphere_cloud_horizontal_shape_octave_0_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_octave_0_y>
       <local_atmosphere_cloud_horizontal_shape_octave_0_z> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_octave_0_z>
-      <local_atmosphere_cloud_horizontal_shape_octave_1_x> 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578</local_atmosphere_cloud_horizontal_shape_octave_1_x>
-      <local_atmosphere_cloud_horizontal_shape_octave_1_y> 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996 0.2996</local_atmosphere_cloud_horizontal_shape_octave_1_y>
-      <local_atmosphere_cloud_horizontal_shape_octave_1_z> 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578 0.4578</local_atmosphere_cloud_horizontal_shape_octave_1_z>
+      <local_atmosphere_cloud_horizontal_shape_octave_1_x> 1.1973 1.1973 1.1973 1.1973 1.1973 1.1963 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973</local_atmosphere_cloud_horizontal_shape_octave_1_x>
+      <local_atmosphere_cloud_horizontal_shape_octave_1_y> 0.0000 0.0000 0.0000 0.0750 0.0000 0.2500 0.0000 0.0000 0.0000 0.0750 0.2000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_octave_1_y>
+      <local_atmosphere_cloud_horizontal_shape_octave_1_z> -0.2000 -0.2000 -0.2000 -0.2000 -0.2000 -0.3997 -0.2000 -0.2000 -0.2000 -0.2000 -0.2000 -0.2000 -0.2000</local_atmosphere_cloud_horizontal_shape_octave_1_z>
       <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_r_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_r_x>
-      <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_r_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_r_y>
+      <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_r_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_r_y>
       <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_g_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_g_x>
-      <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_g_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_g_y>
+      <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_g_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_g_y>
       <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_b_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_b_x>
-      <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_b_y> 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_b_y>
+      <local_atmosphere_cloud_horizontal_shape_noise_bounds_0_b_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_0_b_y>
       <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_r_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_r_x>
-      <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_r_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_r_y>
-      <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_g_x> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_g_x>
-      <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_g_y> 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_g_y>
+      <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_r_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_r_y>
+      <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_g_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_g_x>
+      <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_g_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_g_y>
       <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_x>
-      <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_y> 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978 0.6978</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_y>
-      <local_atmosphere_cloud_map_erosion_0_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_map_erosion_0_x>
-      <local_atmosphere_cloud_map_erosion_0_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_map_erosion_0_y>
-      <local_atmosphere_cloud_map_erosion_0_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_map_erosion_0_x>
-      <local_atmosphere_cloud_map_erosion_0_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_map_erosion_0_y>
+      <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_y>
+      <local_atmosphere_cloud_map_erosion_0_x> -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000</local_atmosphere_cloud_map_erosion_0_x>
+      <local_atmosphere_cloud_map_erosion_0_y> -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000</local_atmosphere_cloud_map_erosion_0_y>
+      <local_atmosphere_cloud_map_erosion_0_x> -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000</local_atmosphere_cloud_map_erosion_0_x>
+      <local_atmosphere_cloud_map_erosion_0_y> -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000</local_atmosphere_cloud_map_erosion_0_y>
       <local_atmosphere_cloud_region_mask_0_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_0_x>
       <local_atmosphere_cloud_region_mask_0_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_0_y>
       <local_atmosphere_cloud_region_mask_0_z> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_0_z>
       <local_atmosphere_cloud_region_mask_0_w> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_0_w>
-      <local_atmosphere_cloud_region_mask_1_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_x>
-      <local_atmosphere_cloud_region_mask_1_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_y>
+      <local_atmosphere_cloud_region_mask_1_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 -0.0200 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_x>
+      <local_atmosphere_cloud_region_mask_1_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 -0.4036 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_y>
       <local_atmosphere_cloud_region_mask_1_z> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_z>
       <local_atmosphere_cloud_region_mask_1_w> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_w>
       <local_atmosphere_cloud_height> 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000</local_atmosphere_cloud_height>
-      <local_atmosphere_cloud_height_top> 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 2000.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000</local_atmosphere_cloud_height_top>
-      <local_atmosphere_cloud_cirrus_height> 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000</local_atmosphere_cloud_cirrus_height>
-      <local_atmosphere_cloud_cirrus_density_x> 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.4000 0.2000 0.2000</local_atmosphere_cloud_cirrus_density_x>
-      <local_atmosphere_cloud_cirrus_density_y> 0.0000 0.0000 0.1000 0.1000 0.1000 0.0000 0.0000 0.0000 0.1000 0.2000 0.1000 0.0000 0.0000</local_atmosphere_cloud_cirrus_density_y>
-      <local_atmosphere_cloud_cirrostratus_density> 0.1000 0.1000 0.0000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.0000 0.1000</local_atmosphere_cloud_cirrostratus_density>
-      <local_atmosphere_cloud_cirrostratus_falloff> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_cirrostratus_falloff>
-      <local_atmosphere_cloud_large_noise_low_x> 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077</local_atmosphere_cloud_large_noise_low_x>
-      <local_atmosphere_cloud_large_noise_low_y> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_large_noise_low_y>
-      <local_atmosphere_cloud_large_noise_low_z> 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077</local_atmosphere_cloud_large_noise_low_z>
-      <local_atmosphere_cloud_large_noise_high_x> 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077</local_atmosphere_cloud_large_noise_high_x>
-      <local_atmosphere_cloud_large_noise_high_y> 0.5000 0.5000 0.5000 0.5000 0.5005 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000</local_atmosphere_cloud_large_noise_high_y>
-      <local_atmosphere_cloud_large_noise_high_z> 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077 0.9077</local_atmosphere_cloud_large_noise_high_z>
+      <local_atmosphere_cloud_height_top> 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000 1500.0000</local_atmosphere_cloud_height_top>
+      <local_atmosphere_cloud_cirrus_height> 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000</local_atmosphere_cloud_cirrus_height>
+      <local_atmosphere_cloud_cirrus_density_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 1.0000 1.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_cirrus_density_x>
+      <local_atmosphere_cloud_cirrus_density_y> 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000</local_atmosphere_cloud_cirrus_density_y>
+      <local_atmosphere_cloud_cirrostratus_density> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.9644 1.0000 1.0000</local_atmosphere_cloud_cirrostratus_density>
+      <local_atmosphere_cloud_cirrostratus_falloff> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 3.0000 3.0000 1.0000 2.0000 4.0000 1.0000 1.0000</local_atmosphere_cloud_cirrostratus_falloff>
+      <local_atmosphere_cloud_large_noise_low_x> -1.4473 -1.4473 -1.4473 -1.4473 -1.4473 -1.4473 -1.4473 -1.4473 -1.4473 -1.4473 -1.4473 -1.4473 -1.4473</local_atmosphere_cloud_large_noise_low_x>
+      <local_atmosphere_cloud_large_noise_low_y> 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000</local_atmosphere_cloud_large_noise_low_y>
+      <local_atmosphere_cloud_large_noise_low_z> 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973 1.1973</local_atmosphere_cloud_large_noise_low_z>
+      <local_atmosphere_cloud_large_noise_high_x> 3.2969 3.2969 3.2969 3.2969 3.2969 3.2969 3.2969 3.2969 3.2969 3.2969 3.2969 3.2969 3.2969</local_atmosphere_cloud_large_noise_high_x>
+      <local_atmosphere_cloud_large_noise_high_y> 0.5728 0.5728 0.5728 0.4976 0.5728 0.5728 0.5728 0.5728 0.5728 0.5728 0.5728 0.5728 0.5728</local_atmosphere_cloud_large_noise_high_y>
+      <local_atmosphere_cloud_large_noise_high_z> 1.0000 1.0000 1.0000 1.3750 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_large_noise_high_z>
       <local_atmosphere_cloud_type_smooth_0_x> 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000</local_atmosphere_cloud_type_smooth_0_x>
-      <local_atmosphere_cloud_type_smooth_0_y> 0.6000 0.6000 0.6000 0.6000 0.6005 0.6000 0.6000 0.6000 0.6000 0.6000 0.6000 0.6000 0.6000</local_atmosphere_cloud_type_smooth_0_y>
-      <local_atmosphere_cloud_type_smooth_x> 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000</local_atmosphere_cloud_type_smooth_x>
-      <local_atmosphere_cloud_type_smooth_y> 0.6000 0.6000 0.6000 0.6000 0.6005 0.6000 0.6000 0.6000 0.6000 0.6000 0.6000 0.6000 0.6000</local_atmosphere_cloud_type_smooth_y>
-      <local_atmosphere_cloud_detail_noise_low_x> 100.7000 100.7000 100.7000 100.7000 100.7005 50.7000 50.7000 50.7000 100.7000 100.7000 100.7000 100.7000 100.7000</local_atmosphere_cloud_detail_noise_low_x>
-      <local_atmosphere_cloud_detail_noise_low_y> 0.4000 0.4000 0.4000 0.4000 0.4005 0.4000 0.4000 0.4000 0.4000 0.4000 0.4000 0.4000 0.4000</local_atmosphere_cloud_detail_noise_low_y>
-      <local_atmosphere_cloud_detail_noise_high_x> 100.7000 100.7000 100.7000 100.7000 100.7005 50.7000 50.7000 50.7000 100.7000 100.7000 100.7000 100.7000 100.7000</local_atmosphere_cloud_detail_noise_high_x>
-      <local_atmosphere_cloud_detail_noise_high_y> 0.4000 0.4000 0.4000 0.4000 0.4005 0.4000 0.4000 0.4000 0.4000 0.4000 0.4000 0.4000 0.4000</local_atmosphere_cloud_detail_noise_high_y>
+      <local_atmosphere_cloud_type_smooth_0_y> 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000</local_atmosphere_cloud_type_smooth_0_y>
+      <local_atmosphere_cloud_type_smooth_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_type_smooth_x>
+      <local_atmosphere_cloud_type_smooth_y> 0.3997 0.3997 0.3997 0.5347 0.3997 0.5000 0.3997 0.3997 0.3997 0.3997 0.5977 0.3997 0.3997</local_atmosphere_cloud_type_smooth_y>
+      <local_atmosphere_cloud_detail_noise_low_x> 1.0000 1.0000 1.0000 4.7227 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_detail_noise_low_x>
+      <local_atmosphere_cloud_detail_noise_low_y> 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000</local_atmosphere_cloud_detail_noise_low_y>
+      <local_atmosphere_cloud_detail_noise_high_x> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_detail_noise_high_x>
+      <local_atmosphere_cloud_detail_noise_high_y> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_detail_noise_high_y>
       <local_atmosphere_cloud_voxel_density_reduction> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_voxel_density_reduction>
       <local_atmosphere_cloud_raymarch_added_precision> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_raymarch_added_precision>
       <local_atmosphere_cloud_raymarch_added_steplength> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_raymarch_added_steplength>
-      <local_atmosphere_cloud_wind_velocity_scale_0> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_wind_velocity_scale_0>
-      <local_atmosphere_cloud_wind_velocity_scale_1> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_wind_velocity_scale_1>
-      <local_atmosphere_cloud_wind_velocity_scale_2> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_wind_velocity_scale_2>
+      <local_atmosphere_cloud_wind_velocity_scale_0> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_velocity_scale_0>
+      <local_atmosphere_cloud_wind_velocity_scale_1> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_velocity_scale_1>
+      <local_atmosphere_cloud_wind_velocity_scale_2> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_velocity_scale_2>
       <local_atmosphere_cloud_wind_displ_strength_low> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_displ_strength_low>
-      <local_atmosphere_cloud_wind_displ_strength_high> 10.0000 10.0000 10.0000 10.0000 10.0000 10.0000 10.0000 10.0000 10.0000 10.0000 10.0000 10.0000 10.0000</local_atmosphere_cloud_wind_displ_strength_high>
-      <local_atmosphere_cloud_detail_wind_velocity_scale> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_detail_wind_velocity_scale>
-      <local_atmosphere_cloud_detail_wind_vertical_speed> 0.0000 0.0000 0.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_detail_wind_vertical_speed>
+      <local_atmosphere_cloud_wind_displ_strength_high> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_displ_strength_high>
+      <local_atmosphere_cloud_detail_wind_velocity_scale> 0.9893 0.9893 0.9893 0.9893 0.9893 0.9893 0.9893 0.9893 0.9893 0.9893 0.9893 0.9893 0.9893</local_atmosphere_cloud_detail_wind_velocity_scale>
+      <local_atmosphere_cloud_detail_wind_vertical_speed> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_detail_wind_vertical_speed>
       <local_atmosphere_voxel_wind_velocity_scale> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_voxel_wind_velocity_scale>
       <local_atmosphere_voxel_detail_wind_vertical_speed> -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000 -3.0000</local_atmosphere_voxel_detail_wind_vertical_speed>
-      <local_atmosphere_large_scale_wind_velocity_scale> 2.0000 2.0000 2.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_large_scale_wind_velocity_scale>
-      <local_atmosphere_large_scale_wind_vertical_speed> -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000 -5.0000</local_atmosphere_large_scale_wind_vertical_speed>
-      <local_atmosphere_cloud_wind_shear> 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000 225.0000 200.0000 200.0000 200.0000 200.0000 200.0000 200.0000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_large_scale_wind_velocity_scale> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_large_scale_wind_velocity_scale>
+      <local_atmosphere_large_scale_wind_vertical_speed> -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000</local_atmosphere_large_scale_wind_vertical_speed>
+      <local_atmosphere_cloud_wind_shear> 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000</local_atmosphere_cloud_wind_shear>
             <local_atmosphere_ambient_absorption> 0.5000 2.0000 2.0000 2.0000 2.0000 0.5000 2.0000 2.0000 0.5000 2.0000 2.0000 1.0000 0.5000</local_atmosphere_ambient_absorption>
       <local_atmosphere_ambient_absorption_local> 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000</local_atmosphere_ambient_absorption_local>
       <local_atmosphere_sky_col_r> 1.0000 1.0000 1.0000 0.6104 0.7725 1.0000 1.0000 1.0000 1.0000 0.7007 1.0000 0.1801 1.0000</local_atmosphere_sky_col_r>
@@ -373,17 +373,17 @@
       <local_atmosphere_rainbow_far_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_rainbow_far_mult>
             <local_atmosphere_sky_transmittance_curve> 1.0000 1.0000 1.0000 1.0000 1.0000 0.6978 0.6299 0.6299 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_sky_transmittance_curve>
       <local_atmosphere_sky_transmittance_scale> 1.0000 1.0000 1.0000 1.0000 1.0000 0.6978 0.5269 0.5269 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_sky_transmittance_scale>
-      <local_atmosphere_cloud_shadow_alpha> 3.0000 3.0000 3.0000 5.0000 5.0000 5.0000 3.0000 3.0000 3.0000 3.0000 3.0000 3.0000 3.0000</local_atmosphere_cloud_shadow_alpha>
-      <local_atmosphere_cloud_shadow_alpha_scattering> 1.0000 1.0000 1.0000 1.0000 0.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.0000 1.0000 1.0000</local_atmosphere_cloud_shadow_alpha_scattering>
-      <local_atmosphere_cloud_shadow_exponent> 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000</local_atmosphere_cloud_shadow_exponent>
-      <local_atmosphere_cloud_shadow_darkening> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.0000 1.0000 1.0000</local_atmosphere_cloud_shadow_darkening>
-      <local_atmosphere_cloud_shadow_darkening_fog> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_shadow_darkening_fog>
-      <local_atmosphere_cloud_shadow_base> 1.0000 1.0000 1.0000 1.0000 0.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.0000 1.0000 1.0000</local_atmosphere_cloud_shadow_base>
+      <local_atmosphere_cloud_shadow_alpha> 0.8975 0.8975 0.8975 0.8975 0.8975 0.6978 0.7979 0.8267 0.8140 0.8975 0.8975 0.8975 0.8975</local_atmosphere_cloud_shadow_alpha>
+      <local_atmosphere_cloud_shadow_alpha_scattering> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.8970 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_shadow_alpha_scattering>
+      <local_atmosphere_cloud_shadow_exponent> 300.0000 300.0000 300.0000 30.0000 115.0000 100.0000 309.0000 150.0000 50.0000 100.0000 30.0000 300.0000 300.0000</local_atmosphere_cloud_shadow_exponent>
+      <local_atmosphere_cloud_shadow_darkening> 1.5000 1.5000 1.5000 1.5000 0.5000 1.0000 1.0000 1.0000 0.5000 1.5000 0.5000 1.5000 1.5000</local_atmosphere_cloud_shadow_darkening>
+      <local_atmosphere_cloud_shadow_darkening_fog> 0.5000 0.5000 1.0000 0.5000 0.5894 1.3975 1.5000 1.5000 0.5000 0.5000 0.5000 0.5000 0.5000</local_atmosphere_cloud_shadow_darkening_fog>
+      <local_atmosphere_cloud_shadow_base> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_shadow_base>
       <local_atmosphere_terrain_shadow_alpha> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.4717 1.0000 1.0000</local_atmosphere_terrain_shadow_alpha>
-      <local_atmosphere_fog_shadow_amount> 0.0000 0.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.0000</local_atmosphere_fog_shadow_amount>
-      <fog_shadow_amount> 0.0000 0.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.0000</fog_shadow_amount>
-      <fog_shadow_falloff> 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000</fog_shadow_falloff>
-      <fog_shadow_base_height> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</fog_shadow_base_height>
+      <local_atmosphere_fog_shadow_amount> 0.0000 0.0000 0.0000 0.1769 0.0000 0.2996 0.3689 0.2996 0.4419 0.1769 0.5000 0.0000 0.0000</local_atmosphere_fog_shadow_amount>
+      <fog_shadow_amount> 0.0000 0.0000 0.0000 0.1659 0.0000 0.2996 0.2820 0.0000 0.2000 0.1769 0.0000 0.0000 0.0000</fog_shadow_amount>
+      <fog_shadow_falloff> 1000.0000 1000.0000 1000.0000 603.0000 1000.0000 1000.0000 1000.0000 1000.0000 500.0000 624.5000 1000.0000 1000.0000 1000.0000</fog_shadow_falloff>
+      <fog_shadow_base_height> 0.0000 0.0000 0.0000 75.7500 0.0000 1.0000 1.0000 1.0000 514.0000 49.1250 0.0000 0.0000 0.0000</fog_shadow_base_height>
       <fog_shadow_ambient_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</fog_shadow_ambient_mult>
       <postfx_bloom_fog_mod_intensity> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</postfx_bloom_fog_mod_intensity>
       <postfx_bloom_fog_mod_intensity_distance_blend> 0.0500 0.0500 0.0500 0.1000 0.5000 0.0500 0.5000 0.5000 0.0500 0.5000 0.5000 0.0500 0.0500</postfx_bloom_fog_mod_intensity_distance_blend>
@@ -508,7 +508,7 @@
       <particle_light_intensity_mult> 3.0000 3.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 3.0000 3.0000</particle_light_intensity_mult>
       <no_weather_fx> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</no_weather_fx>
       <no_gpu_fx> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</no_gpu_fx>
-      <no_rain> 0.5000 0.7000 0.1000 0.5000 0.1000 0.6000 0.5000 0.5000 0.6000 0.5000 0.6000 0.1000 0.5000</no_rain>
+      <no_rain> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</no_rain>
       <disable_rain_interior_stencil_check> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</disable_rain_interior_stencil_check>
       <vfxvolume_density_scalar> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</vfxvolume_density_scalar>
       <vfxvolume_density_scalar_interior> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</vfxvolume_density_scalar_interior>
@@ -817,10 +817,10 @@
       <sky_stars_dense_galaxy_light_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</sky_stars_dense_galaxy_light_mult>
       <sky_stars_sparse_galaxy_light_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</sky_stars_sparse_galaxy_light_mult>
       <local_atmosphere_fog_density> 0.0005 0.0005 0.0005 0.0005 0.0015 0.0025 0.0035 0.0045 0.0035 0.0025 0.0015 0.0005 0.0005</local_atmosphere_fog_density>
-      <local_atmosphere_fog_height> 40.0000 40.0000 40.0000 40.0000 40.0000 40.0000 40.0000 40.0000 40.0000 40.0000 40.0000 40.0000 40.0000</local_atmosphere_fog_height>
-       <local_atmosphere_fog_falloff> 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000</local_atmosphere_fog_falloff>
-      <local_atmosphere_localized_fog_density_mult> 0.1000 0.1000 0.3000 0.5000 0.5000 0.4000 0.3000 0.2000 0.1000 0.1000 0.1000 0.1000 0.1000</local_atmosphere_localized_fog_density_mult>
-      <local_atmosphere_localized_fog_density_mult_raymarch> 1.0000 0.2996 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_localized_fog_density_mult_raymarch>
+      <local_atmosphere_fog_height> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 300.0000 0.0000 500.0000 0.0000 0.0000 141.0000</local_atmosphere_fog_height>
+       <local_atmosphere_fog_falloff> 50.0000 50.0000 50.0000 50.0000 50.0000 50.0000 50.0000 500.0000 50.0000 500.0000 50.0000 50.0000 7.0000</local_atmosphere_fog_falloff>
+      <local_atmosphere_localized_fog_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.1000 1.0000 0.1000 1.0000 1.0000 0.1000</local_atmosphere_localized_fog_density_mult>
+      <local_atmosphere_localized_fog_density_mult_raymarch> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.2996 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_localized_fog_density_mult_raymarch>
       <local_atmosphere_localized_fog_noise_bounds_x> -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000</local_atmosphere_localized_fog_noise_bounds_x>
       <local_atmosphere_localized_fog_noise_bounds_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_localized_fog_noise_bounds_y>
       <local_atmosphere_localized_fog_wind_velocity> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_localized_fog_wind_velocity>
@@ -828,25 +828,25 @@
       <local_atmosphere_fog_volume_dust_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_dust_density_mult>
       <local_atmosphere_fog_volume_smoke_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_smoke_density_mult>
       <local_atmosphere_fog_volume_mist_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_mist_density_mult>
-      <local_atmosphere_fog_volume_pollution_density_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_fog_volume_pollution_density_mult>
+      <local_atmosphere_fog_volume_pollution_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_pollution_density_mult>
       <local_atmosphere_fog_volume_snow_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_snow_density_mult>
-      <local_atmosphere_fog_volume_waterfall_density_mult> 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000 5.0000</local_atmosphere_fog_volume_waterfall_density_mult>
-      <local_atmosphere_rain_density_falloff> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.1000</local_atmosphere_rain_density_falloff>
-      <local_atmosphere_rain_threshold> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_rain_threshold>
-      <local_atmosphere_voxel_noise_min> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_voxel_noise_min>
-      <local_atmosphere_voxel_noise_max> 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000</local_atmosphere_voxel_noise_max>
-      <local_atmosphere_voxel_noise_scale_mult_z> 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000</local_atmosphere_voxel_noise_scale_mult_z>
+      <local_atmosphere_fog_volume_waterfall_density_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_fog_volume_waterfall_density_mult>
+      <local_atmosphere_rain_density_falloff> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.0000 1.0000 0.0100 1.0000 1.0000 0.1000</local_atmosphere_rain_density_falloff>
+      <local_atmosphere_rain_threshold> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.0000 1.0000 0.5977 1.0000 1.0000 1.0000</local_atmosphere_rain_threshold>
+      <local_atmosphere_voxel_noise_min> 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5000 0.5679</local_atmosphere_voxel_noise_min>
+      <local_atmosphere_voxel_noise_max> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.6934</local_atmosphere_voxel_noise_max>
+      <local_atmosphere_voxel_noise_scale_mult_z> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_voxel_noise_scale_mult_z>
       <local_atmosphere_voxel_distribution_blend> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_voxel_distribution_blend>
       <local_atmosphere_voxel_coverage_deferred_min> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_voxel_coverage_deferred_min>
       <fog_start> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</fog_start>
 <far_haze_start> 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000</far_haze_start>
       <far_haze_power> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</far_haze_power>
       <far_haze_ambient_intensity> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</far_haze_ambient_intensity>
-      <local_atmosphere_cloud_density> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_density>
-      <local_atmosphere_cloud_horizontal_shape_0_y> 0.0000 0.0000 0.3997 0.3997 0.0000 0.3997 0.3997 0.3997 0.3997 0.0000 0.3997 0.3997 0.0000</local_atmosphere_cloud_horizontal_shape_0_y>
-      <local_atmosphere_cloud_horizontal_shape_0_z> 2.0000 2.0000 0.5977 0.5977 2.0000 0.5977 0.5977 0.5977 0.5977 2.0000 0.5977 0.5977 1.0000</local_atmosphere_cloud_horizontal_shape_0_z>
-      <local_atmosphere_cloud_horizontal_shape_1_y> 0.0000 0.0000 0.3997 0.3997 0.0000 0.3997 0.3997 0.3997 0.3997 0.0000 0.3997 0.3997 0.2747</local_atmosphere_cloud_horizontal_shape_1_y>
-      <local_atmosphere_cloud_horizontal_shape_1_z> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.8726</local_atmosphere_cloud_horizontal_shape_1_z>
+      <local_atmosphere_cloud_density> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_density>
+      <local_atmosphere_cloud_horizontal_shape_0_y> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.2000 0.3997 0.2000 0.3997 0.3997 0.0000</local_atmosphere_cloud_horizontal_shape_0_y>
+      <local_atmosphere_cloud_horizontal_shape_0_z> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.8975 0.5977 0.8975 0.5977 0.5977 1.0000</local_atmosphere_cloud_horizontal_shape_0_z>
+      <local_atmosphere_cloud_horizontal_shape_1_y> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.0000 0.3997 0.0000 0.3997 0.3997 0.2747</local_atmosphere_cloud_horizontal_shape_1_y>
+      <local_atmosphere_cloud_horizontal_shape_1_z> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5479 0.5977 1.0000 0.5977 0.5977 0.8726</local_atmosphere_cloud_horizontal_shape_1_z>
       <local_atmosphere_cloud_horizontal_shape_octave_0_x> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_octave_0_x>
       <local_atmosphere_cloud_horizontal_shape_octave_0_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_octave_0_y>
       <local_atmosphere_cloud_horizontal_shape_octave_0_z> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_octave_0_z>
@@ -866,9 +866,9 @@
       <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_x>
       <local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_horizontal_shape_noise_bounds_1_b_y>
       <local_atmosphere_cloud_map_erosion_0_x> -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000</local_atmosphere_cloud_map_erosion_0_x>
-      <local_atmosphere_cloud_map_erosion_0_y> -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000</local_atmosphere_cloud_map_erosion_0_y>
-      <local_atmosphere_cloud_map_erosion_0_x> -0.5000 -0.5000 -1.0000 -1.0000 -0.5000 -1.0000 -1.0000 -1.0000 -1.0000 -0.5000 -1.0000 -1.0000 -1.0000</local_atmosphere_cloud_map_erosion_0_x>
-      <local_atmosphere_cloud_map_erosion_0_y> 0.2996 0.2996 -0.5000 -0.5000 0.2996 -0.5000 -0.5000 -0.5000 -0.5000 0.2996 -0.5000 -0.5000 -0.5596</local_atmosphere_cloud_map_erosion_0_y>
+      <local_atmosphere_cloud_map_erosion_0_y> -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5596</local_atmosphere_cloud_map_erosion_0_y>
+      <local_atmosphere_cloud_map_erosion_0_x> -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000 -1.0000</local_atmosphere_cloud_map_erosion_0_x>
+      <local_atmosphere_cloud_map_erosion_0_y> -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5000 -0.5596</local_atmosphere_cloud_map_erosion_0_y>
       <local_atmosphere_cloud_region_mask_0_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_0_x>
       <local_atmosphere_cloud_region_mask_0_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_0_y>
       <local_atmosphere_cloud_region_mask_0_z> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_0_z>
@@ -877,39 +877,39 @@
       <local_atmosphere_cloud_region_mask_1_y> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_y>
       <local_atmosphere_cloud_region_mask_1_z> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_z>
       <local_atmosphere_cloud_region_mask_1_w> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_region_mask_1_w>
-            <local_atmosphere_cloud_height> 750.0000 750.0000 750.0000 750.0000 750.0000 750.0000 750.0000 750.0000 750.0000 750.0000 750.0000 750.0000 750.0000</local_atmosphere_cloud_height>
-      <local_atmosphere_cloud_height_top> 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000 1000.0000</local_atmosphere_cloud_height_top>
-      <local_atmosphere_cloud_cirrus_height> 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000 15000.0000</local_atmosphere_cloud_cirrus_height>
-      <local_atmosphere_cloud_cirrus_density_x> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997</local_atmosphere_cloud_cirrus_density_x>
-      <local_atmosphere_cloud_cirrus_density_y> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997</local_atmosphere_cloud_cirrus_density_y>
+            <local_atmosphere_cloud_height> 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 500.0000 400.0000 500.0000 400.0000 500.0000 500.0000 400.0000</local_atmosphere_cloud_height>
+      <local_atmosphere_cloud_height_top> 2500.0000 2500.0000 2500.0000 2500.0000 2500.0000 2500.0000 2500.0000 1500.0000 2500.0000 1500.0000 2500.0000 2500.0000 1500.0000</local_atmosphere_cloud_height_top>
+      <local_atmosphere_cloud_cirrus_height> 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000 8000.0000</local_atmosphere_cloud_cirrus_height>
+      <local_atmosphere_cloud_cirrus_density_x> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_cirrus_density_x>
+      <local_atmosphere_cloud_cirrus_density_y> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_cirrus_density_y>
       <local_atmosphere_cloud_cirrostratus_density> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_cirrostratus_density>
-      <local_atmosphere_cloud_cirrostratus_falloff> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_cirrostratus_falloff>
-      <local_atmosphere_cloud_large_noise_low_x> 1.2461 1.2461 1.0000 1.0000 1.2461 1.0000 1.0000 1.0000 1.0000 1.2461 1.0000 1.0000 -9.7969</local_atmosphere_cloud_large_noise_low_x>
-      <local_atmosphere_cloud_large_noise_low_y> 0.2000 0.4749 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 -0.0500</local_atmosphere_cloud_large_noise_low_y>
-      <local_atmosphere_cloud_large_noise_low_z> 1.0000 1.0000 0.7979 0.7979 1.0000 0.7979 0.7979 0.7979 0.7979 1.0000 0.7979 0.7979 1.3750</local_atmosphere_cloud_large_noise_low_z>
-      <local_atmosphere_cloud_large_noise_high_x> -15.8750 -15.8750 1.0000 1.0000 -15.8750 1.0000 1.0000 1.0000 1.0000 -15.8750 1.0000 1.0000 1.0000</local_atmosphere_cloud_large_noise_high_x>
-      <local_atmosphere_cloud_large_noise_high_y> 0.7500 0.7500 0.2000 0.2000 0.7500 0.2000 0.2000 0.2000 0.2000 0.7500 0.2000 0.2000 0.0000</local_atmosphere_cloud_large_noise_high_y>
-      <local_atmosphere_cloud_large_noise_high_z> 1.0000 1.0000 0.7979 0.7979 1.0000 0.7979 0.7979 0.7979 0.7979 1.0000 0.7979 0.7979 1.0000</local_atmosphere_cloud_large_noise_high_z>
+      <local_atmosphere_cloud_cirrostratus_falloff> 4.0000 4.0000 4.0000 4.0000 4.0000 4.0000 4.0000 4.0000 4.0000 4.0000 4.0000 4.0000 4.0000</local_atmosphere_cloud_cirrostratus_falloff>
+      <local_atmosphere_cloud_large_noise_low_x> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 -1.4473 1.0000 -1.4473 1.0000 1.0000 -9.7969</local_atmosphere_cloud_large_noise_low_x>
+      <local_atmosphere_cloud_large_noise_low_y> 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 -0.7271 0.2000 0.0724 0.2000 0.2000 -0.0500</local_atmosphere_cloud_large_noise_low_y>
+      <local_atmosphere_cloud_large_noise_low_z> 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 1.3750</local_atmosphere_cloud_large_noise_low_z>
+      <local_atmosphere_cloud_large_noise_high_x> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.4749 1.0000 3.2969 1.0000 1.0000 1.0000</local_atmosphere_cloud_large_noise_high_x>
+      <local_atmosphere_cloud_large_noise_high_y> 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.2000 0.8726 0.2000 0.5728 0.2000 0.2000 0.0000</local_atmosphere_cloud_large_noise_high_y>
+      <local_atmosphere_cloud_large_noise_high_z> 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 1.0000 0.7979 1.0000 0.7979 0.7979 1.0000</local_atmosphere_cloud_large_noise_high_z>
       <local_atmosphere_cloud_type_smooth_0_x> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997</local_atmosphere_cloud_type_smooth_0_x>
       <local_atmosphere_cloud_type_smooth_0_y> 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979</local_atmosphere_cloud_type_smooth_0_y>
-      <local_atmosphere_cloud_type_smooth_x> 0.2500 0.2500 0.3997 0.3997 0.2500 0.3997 0.3997 0.3997 0.3997 0.2500 0.3997 0.3997 0.0000</local_atmosphere_cloud_type_smooth_x>
-      <local_atmosphere_cloud_type_smooth_y> 0.5225 0.5225 0.7979 0.7979 0.5225 0.7979 0.7979 0.7979 0.7979 0.5225 0.7979 0.7979 0.3997</local_atmosphere_cloud_type_smooth_y>
-      <local_atmosphere_cloud_detail_noise_low_x> 5.0000 5.0000 1.0000 1.0000 5.0000 1.0000 1.0000 1.0000 1.0000 5.0000 1.0000 1.0000 3.0000</local_atmosphere_cloud_detail_noise_low_x>
-      <local_atmosphere_cloud_detail_noise_low_y> 0.5000 0.5000 0.3997 0.3997 0.5000 0.3997 0.3997 0.3997 0.3997 0.5000 0.3997 0.3997 0.3997</local_atmosphere_cloud_detail_noise_low_y>
-      <local_atmosphere_cloud_detail_noise_high_x> 10.0000 10.0000 1.0000 1.0000 10.0000 1.0000 1.0000 1.0000 1.0000 10.0000 1.0000 1.0000 16.0000</local_atmosphere_cloud_detail_noise_high_x>
-      <local_atmosphere_cloud_detail_noise_high_y> 0.0999 0.0999 0.3997 0.3997 0.0999 0.3997 0.3997 0.3997 0.3997 0.0999 0.3997 0.3997 0.5000</local_atmosphere_cloud_detail_noise_high_y>
+      <local_atmosphere_cloud_type_smooth_x> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.0000 0.3997 0.0000 0.3997 0.3997 0.0000</local_atmosphere_cloud_type_smooth_x>
+      <local_atmosphere_cloud_type_smooth_y> 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.7979 0.5000 0.7979 0.5000 0.7979 0.7979 0.3997</local_atmosphere_cloud_type_smooth_y>
+      <local_atmosphere_cloud_detail_noise_low_x> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 4.0000 1.0000 3.0000 1.0000 1.0000 3.0000</local_atmosphere_cloud_detail_noise_low_x>
+      <local_atmosphere_cloud_detail_noise_low_y> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.5972 0.3997 0.5972 0.3997 0.3997 0.3997</local_atmosphere_cloud_detail_noise_low_y>
+      <local_atmosphere_cloud_detail_noise_high_x> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 16.0000</local_atmosphere_cloud_detail_noise_high_x>
+      <local_atmosphere_cloud_detail_noise_high_y> 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.3997 0.5977 0.3997 0.5977 0.3997 0.3997 0.5000</local_atmosphere_cloud_detail_noise_high_y>
       <local_atmosphere_cloud_voxel_density_reduction> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_voxel_density_reduction>
       <local_atmosphere_cloud_raymarch_added_precision> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_raymarch_added_precision>
       <local_atmosphere_cloud_raymarch_added_steplength> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_raymarch_added_steplength>
-      <local_atmosphere_cloud_wind_velocity_scale_0> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_wind_velocity_scale_0>
-      <local_atmosphere_cloud_wind_velocity_scale_1> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_wind_velocity_scale_1>
-      <local_atmosphere_cloud_wind_velocity_scale_2> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_wind_velocity_scale_2>
+      <local_atmosphere_cloud_wind_velocity_scale_0> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_velocity_scale_0>
+      <local_atmosphere_cloud_wind_velocity_scale_1> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_velocity_scale_1>
+      <local_atmosphere_cloud_wind_velocity_scale_2> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_velocity_scale_2>
       <local_atmosphere_cloud_wind_displ_strength_low> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_displ_strength_low>
       <local_atmosphere_cloud_wind_displ_strength_high> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_wind_displ_strength_high>
-      <local_atmosphere_cloud_detail_wind_velocity_scale> 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977 0.5977</local_atmosphere_cloud_detail_wind_velocity_scale>
+      <local_atmosphere_cloud_detail_wind_velocity_scale> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.9893 1.0000 0.9893 1.0000 1.0000 1.0000</local_atmosphere_cloud_detail_wind_velocity_scale>
       <local_atmosphere_cloud_detail_wind_vertical_speed> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_detail_wind_vertical_speed>
-      <local_atmosphere_voxel_wind_velocity_scale> 1.0000 1.0000 1.0000 10.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.1299</local_atmosphere_voxel_wind_velocity_scale>
-      <local_atmosphere_voxel_detail_wind_vertical_speed> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_voxel_detail_wind_vertical_speed>
+      <local_atmosphere_voxel_wind_velocity_scale> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.1299</local_atmosphere_voxel_wind_velocity_scale>
+      <local_atmosphere_voxel_detail_wind_vertical_speed> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 -3.0000 1.0000 1.0000 1.0000 1.0000 0.2996</local_atmosphere_voxel_detail_wind_vertical_speed>
       <local_atmosphere_large_scale_wind_vertical_speed> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_large_scale_wind_vertical_speed>
       <local_atmosphere_cloud_wind_shear> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_wind_shear>
       <local_atmosphere_ambient_absorption> 0.5000 0.5000 0.0200 0.0200 0.5000 0.0200 0.0200 0.0200 0.0200 0.5000 0.0200 0.0200 2.0000</local_atmosphere_ambient_absorption>
@@ -948,17 +948,17 @@
       <local_atmosphere_rainbow_far_mult> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_rainbow_far_mult>
       <local_atmosphere_sky_transmittance_curve> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_sky_transmittance_curve>
       <local_atmosphere_sky_transmittance_scale> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_sky_transmittance_scale>
-      <local_atmosphere_cloud_shadow_alpha> 0.8887 0.0000 1.0000 1.0000 0.8887 1.0000 1.0000 1.0000 1.0000 0.8887 1.0000 1.0000 0.8887</local_atmosphere_cloud_shadow_alpha>
+      <local_atmosphere_cloud_shadow_alpha> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.8975 1.0000 0.8975 1.0000 1.0000 0.0000</local_atmosphere_cloud_shadow_alpha>
       <local_atmosphere_cloud_shadow_alpha_scattering> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_shadow_alpha_scattering>
-      <local_atmosphere_cloud_shadow_exponent> 100.0000 0.0000 100.0000 100.0000 1.0000 100.0000 100.0000 100.0000 100.0000 1.0000 100.0000 100.0000 1.0000</local_atmosphere_cloud_shadow_exponent>
+      <local_atmosphere_cloud_shadow_exponent> 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 100.0000 52.0000 100.0000 1.0000 100.0000 100.0000 1.0000</local_atmosphere_cloud_shadow_exponent>
       <local_atmosphere_cloud_shadow_darkening> 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000</local_atmosphere_cloud_shadow_darkening>
-      <local_atmosphere_cloud_shadow_darkening_fog> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_shadow_darkening_fog>
-      <local_atmosphere_cloud_shadow_base> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_cloud_shadow_base>
+      <local_atmosphere_cloud_shadow_darkening_fog> 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 1.5000 0.5000 1.5000 1.5000 1.5000</local_atmosphere_cloud_shadow_darkening_fog>
+      <local_atmosphere_cloud_shadow_base> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</local_atmosphere_cloud_shadow_base>
       <local_atmosphere_terrain_shadow_alpha> 0.0000 0.0000 1.0000 1.0000 0.0000 1.0000 1.0000 1.0000 1.0000 0.0000 1.0000 1.0000 0.0000</local_atmosphere_terrain_shadow_alpha>
       <local_atmosphere_fog_shadow_amount> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</local_atmosphere_fog_shadow_amount>
-      <fog_shadow_amount> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.9893 0.0000</fog_shadow_amount>
-      <fog_shadow_falloff> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 800.0000 1.0000</fog_shadow_falloff>
-      <fog_shadow_base_height> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</fog_shadow_base_height>
+      <fog_shadow_amount> 0.6978 0.7979 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.9546 0.9546 0.0000</fog_shadow_amount>
+      <fog_shadow_falloff> 470.0000 470.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 396.2500 396.2500 1.0000</fog_shadow_falloff>
+      <fog_shadow_base_height> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 147.3750 147.3750 0.0000</fog_shadow_base_height>
       <fog_shadow_ambient_mult> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</fog_shadow_ambient_mult>
       <postfx_bloom_fog_mod_intensity> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</postfx_bloom_fog_mod_intensity>
       <postfx_bloom_fog_mod_intensity_distance_blend> 0.0000 0.2000 0.0500 0.0500 1.0000 0.0500 0.0500 0.0500 0.0500 0.2000 0.0500 0.0500 0.0000</postfx_bloom_fog_mod_intensity_distance_blend>
@@ -1083,7 +1083,7 @@
       <particle_light_intensity_mult> 3.0000 3.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 3.0000 3.0000</particle_light_intensity_mult>
       <no_weather_fx> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</no_weather_fx>
       <no_gpu_fx> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</no_gpu_fx>
-      <no_rain> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</no_rain>
+      <no_rain> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</no_rain>
       <disable_rain_interior_stencil_check> 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000</disable_rain_interior_stencil_check>
       <vfxvolume_density_scalar> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</vfxvolume_density_scalar>
       <vfxvolume_density_scalar_interior> 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000</vfxvolume_density_scalar_interior>

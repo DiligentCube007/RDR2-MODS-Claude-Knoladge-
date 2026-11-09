@@ -25,11 +25,13 @@ C - volumetric only + wind   (A + the gentle wind drift from option 16)
    local_atmosphere_large_scale_wind_velocity_scale: x1.5
 0 - current (installed) = undo.
 
-Applies to: Drizzle, Rain, Shower (+3 variants), Sleet, Hail, Hurricane, Thunder, Thunderstorm (+2 variants).
-HOW: copy all 13 files from ONE option folder to  Vestigia/active/ess  (replace).
+Applies to: Rain, Shower (+3 variants), Sleet, Hail, Hurricane, Thunder, Thunderstorm (+2 variants).
+HOW: copy all 12 files from ONE option folder to  Vestigia/active/ess  (replace).
 Options 16 and 17 change the same files - use one of them (C already includes the wind).
 
 IMPORTANT - in-game graphics settings: volumetric fog is calculated at the resolution of
 'Near Volumetric Resolution' / 'Far Volumetric Resolution' / 'Volumetric Lighting Quality'.
 On Low/Medium the 3D cells are big and fog can look blocky. Near Volumetric Resolution = Ultra
 gives the best result (costs some FPS).
+
+NOTE: Drizzle is NOT included - it has its own fix (option 21, fog structure like vanilla).

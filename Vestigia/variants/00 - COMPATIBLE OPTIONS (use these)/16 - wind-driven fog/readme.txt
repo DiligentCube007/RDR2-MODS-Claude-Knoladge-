@@ -19,6 +19,8 @@ The 2D plane was caused by EXTREME fog noise contrast (0..2), not by wind. With 
     If you see the 2D blobs coming back, go back to option 1.
 0 - current (installed) = undo.
 
-Applies to: Drizzle, Rain, Shower (+3 variants), Sleet, Hail, Hurricane, Thunder, Thunderstorm (+2 variants).
-HOW: copy all 13 files from ONE option folder to  Vestigia/active/ess  (replace).
+Applies to: Rain, Shower (+3 variants), Sleet, Hail, Hurricane, Thunder, Thunderstorm (+2 variants).
+HOW: copy all 12 files from ONE option folder to  Vestigia/active/ess  (replace).
 These files already include the mist plane fix (option 15) - nothing else is changed.
+
+NOTE: Drizzle is NOT included - it has its own fix (option 21, fog structure like vanilla).
