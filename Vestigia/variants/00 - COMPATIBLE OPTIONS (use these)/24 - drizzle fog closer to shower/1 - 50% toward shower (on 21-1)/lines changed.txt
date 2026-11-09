@@ -1,0 +1,12 @@
+Settings changed vs option 21-1 (per time of day, both regions):
+   GLOBAL local_atmosphere_fog_density                         0.0011..0.0015  ->  0.0013..0.0025   (shower 0.0015..0.0035)
+   GLOBAL local_atmosphere_fog_height                          0..500  ->  250..2750   (shower 500..5000)
+   GLOBAL local_atmosphere_fog_falloff                         500..500  ->  750..750   (shower 1000..1000)
+   GLOBAL local_atmosphere_localized_fog_density_mult          0.1..0.2996  ->  0.075..0.1748   (shower 0.05..0.1)
+   GLOBAL local_atmosphere_localized_fog_density_mult_raymarch 0.1..0.2996  ->  0.2996..0.3998   (shower 0.2996..0.5)
+   GLOBAL local_atmosphere_rain_density_falloff                0..0.01  ->  0..0.005   (shower 0..0)
+   URBAN  local_atmosphere_fog_height                          0..500  ->  20..270   (shower 40..40)
+   URBAN  local_atmosphere_fog_falloff                         7..500  ->  253.5..500   (shower 500..500)
+   URBAN  local_atmosphere_localized_fog_density_mult          0.1..1  ->  0.1..0.75   (shower 0.1..0.5)
+   URBAN  local_atmosphere_localized_fog_density_mult_raymarch 0.2996..1  ->  0.6498..1   (shower 0.2996..1)
+   URBAN  local_atmosphere_rain_density_falloff                0..1  ->  0.1..1   (shower 0.1..1)

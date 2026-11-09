@@ -417,6 +417,7 @@ All of those pass. The open items it reports are listed in section 8.
 | 21 | drizzle fog structure like vanilla | `w_drizzle.xml` | 1 keeps Vestigia clouds (**the user's choice**) / 2 + clouds* / 3 full vanilla / 0 previous |
 | 22 | drizzle rain haze (patches) | `w_drizzle.xml` (on 21-2) | weaker / none |
 | 23 | drizzle patches softer (for 21-1) | `w_drizzle.xml` (on 21-1) | a bit softer / much softer / rain haze off. **Waiting for feedback.** |
+| 24 | drizzle fog closer to shower | `w_drizzle.xml` (on 21-1 / 23-1 / 23-2) | fog amount (density, height, falloff, localized, raymarch, rain haze) 50% or 100% toward Shower; shape untouched |
 | 99 | TROUBLESHOOTING | test `install.xml` files | A no weather timecycles / B no timecycle_mods / C no particles / D no visualsettings / E no det |
 
 \* = installed.
@@ -433,7 +434,8 @@ and timecycle test pack 98. They can be recovered from git history (before commi
 
 ## 8. Open issues and suggested next steps (prioritised)
 
-1. **Feedback pending on option 23** (Drizzle patches softer on 21-1). If the user picks one, consider installing it as
+1. **Feedback pending on options 23 and 24.** The user said Drizzle was still too foggy and wanted it closer to Shower, which led to option 24.
+   Original item: **feedback pending on option 23** (Drizzle patches softer on 21-1). If the user picks one, consider installing it as
    the default for Drizzle, or making an in-between version.
 2. **The town (URBAN) region of the other 12 rainy timecycles still has Vestigia fog noise** (for example 0/0.5 against
    vanilla 0.5/0.6). The plane may appear in towns. Fix by applying `FOG_NOISE_FIX_KEYS` to URBAN too, ideally as an

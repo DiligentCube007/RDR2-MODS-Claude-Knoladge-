@@ -31,6 +31,7 @@ file you can copy into `Vestigia/active/...` to change one thing.
 | **21 - drizzle fog structure like vanilla** | previous / fog structure / fog + cloud structure* / full vanilla drizzle (removes the remaining Drizzle plane) | `w_drizzle.xml` | `active/ess` |
 | 22 - drizzle rain haze (patches) | current* (vanilla rain haze) / weaker rain haze / no rain haze | `w_drizzle.xml` | `active/ess` |
 | 23 - drizzle patches softer (for 21-1) | a bit softer / much softer / rain haze off, all keeping Vestigia clouds (21-1) | `w_drizzle.xml` | `active/ess` |
+| 24 - drizzle fog closer to shower | 50% toward / like Shower's fog amount, built on 21-1, 23-1 or 23-2 | `w_drizzle.xml` | `active/ess` |
 | **99 - TROUBLESHOOTING - find the mist plane** | test install.xml files that switch off one part of Vestigia at a time | `install.xml` | `lml/Vestigia/` (put the original back after) |
 
 \* = installed now.
