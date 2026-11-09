@@ -100,6 +100,8 @@ RDR2-MODS-Claude-Knoladge-/
 7. They don't want things removed without asking. They said "don't remove, just add 18". They were fine with removing
    the failed guess options 11–14 and test pack 98 afterwards.
 
+**Confirmed:** the user's **Shower is option 17-C** (volumetric only + wind; they uploaded it and it matched byte for byte).
+
 **Unknown, so ask:** exactly which options they currently have copied onto their PC. Last known state:
 - Option 15 fix installed (13 files).
 - Option 16-1 (gentle wind) was on their Drizzle at one point, and possibly on other weathers.
@@ -417,7 +419,7 @@ All of those pass. The open items it reports are listed in section 8.
 | 21 | drizzle fog structure like vanilla | `w_drizzle.xml` | 1 keeps Vestigia clouds (**the user's choice**) / 2 + clouds* / 3 full vanilla / 0 previous |
 | 22 | drizzle rain haze (patches) | `w_drizzle.xml` (on 21-2) | weaker / none |
 | 23 | drizzle patches softer (for 21-1) | `w_drizzle.xml` (on 21-1) | a bit softer / much softer / rain haze off. **Waiting for feedback.** |
-| 24 | drizzle fog closer to shower | `w_drizzle.xml` (on 21-1 / 23-1 / 23-2) | fog amount (density, height, falloff, localized, raymarch, rain haze) 50% or 100% toward Shower; shape untouched |
+| 24 | drizzle fog closer to shower | `w_drizzle.xml` (on 21-1 / 23-1 / 23-2) | fog amount (density, height, falloff, localized, raymarch, rain haze) and fog wind, 50% or 100% toward **the user's Shower = option 17-C**; shape untouched |
 | 99 | TROUBLESHOOTING | test `install.xml` files | A no weather timecycles / B no timecycle_mods / C no particles / D no visualsettings / E no det |
 
 \* = installed.
